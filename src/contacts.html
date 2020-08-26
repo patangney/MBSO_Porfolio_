@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>MBSO - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta content="telephone=no" name="format-detection" />
+  <meta name="HandheldFriendly" content="true" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Oswald:500%7CPoppins:200,300,300i,400,400i,600,600i%7CMaterial+Icons" />
+  <link rel="stylesheet" href="css/vendor.min.css" />
+  <link rel="stylesheet" href="css/main.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <link rel="manifest" href="img/content/manifest.json" />
+
+</head>
+
+<body data-barba="wrapper">
+  <!-- Cursor follower-->
+  <div class="cursor" id="js-cursor">
+    <div class="cursor__follower">
+      <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+        <circle id="inner" cx="50" cy="50" r="40" />
+        <circle id="outter" cx="50" cy="50" r="40" />
+      </svg>
+    </div>
+  </div>
+  <!-- - Cursor follower-->
+  <!-- Project hover backgrounds-->
+  <div class="project-backgrounds">
+    <div class="project-backgrounds__background lazy-bg" data-src="img/assets/projects/slide@3x.png"
+      data-background-for="1"></div>
+    <div class="project-backgrounds__background lazy-bg" data-src="img/assets/projects/slide2@3x.png"
+      data-background-for="2"></div>
+    <div class="project-backgrounds__background lazy-bg" data-src="img/assets/projects/slide3@3x.png"
+      data-background-for="3"></div>
+
+    <div class="project-backgrounds__overlay overlay overlay_dark"></div>
+  </div>
+  <!-- - Project hover backgrounds-->
+  <!-- PAGE PRELOADER -->
+  <div class="preloader">
+    <div class="preloader__curtain bg-dark-2"></div>
+  </div>
+  <!-- - PAGE PRELOADER -->
+  <!-- PAGE HEADER -->
+  <header class="header header_fixed container-fluid header_white">
+    <div class="row justify-content-between align-items-center">
+      <div class="col-auto header__col-left"><a class="logo" href="index.html">
+          <div class="logo__text">MBSO</div>
+        </a>
+      </div>
+      <div class="col-auto header__col-right">
+        <div class="header__burger" id="js-burger">
+          <div class="header__burger-line"></div>
+          <div class="header__burger-line"></div>
+          <div class="header__burger-line"></div>
+        </div>
+      </div>
+    </div>
+    <!--Navigation-->
+    <div class="header__wrapper-overlay-menu">
+      <div class="header__overlay-menu-back material-icons" id="js-submenu-back">arrow_back</div>
+      <div class="header__wrapper-menu">
+        <ul class="menu-overlay js-menu-overlay">
+
+          <li class="menu-item-has-children"><a href="#">
+              <div class="menu-overlay__item-wrapper"><span class="split-chars">Portfolio</span></div>
+            </a>
+            <ul class="sub-menu">
+              <li><a href="project.html" data-post-id="1" data-pjax-link="overlayMenu">
+                  <div class="menu-overlay__item-wrapper"><span class="split-chars">Software</span></div>
+                </a>
+              </li>
+              <li><a href="project.html" data-post-id="2" data-pjax-link="overlayMenu">
+                  <div class="menu-overlay__item-wrapper"><span class="split-chars">Digital Creation</span></div>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+          <li><a href="services.html" data-pjax-link="overlayMenu">
+              <div class="menu-overlay__item-wrapper"><span class="split-chars">Services</span></div>
+            </a>
+          </li>
+          <li><a href="about.html" data-pjax-link="overlayMenu">
+              <div class="menu-overlay__item-wrapper"><span class="split-chars">About</span></div>
+            </a>
+          </li>
+          <li><a href="contacts.html" data-pjax-link="overlayMenu">
+              <div class="menu-overlay__item-wrapper"><span class="split-chars">Contact Us</span></div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- - menu -->
+      <div class="header__wrapper-overlay-widgets color-white bg-secondary">
+        <div class="header__wrapper-property">
+          <div class="figure-property">
+            <div class="figure-property__wrapper-heading">
+              <h6 class="split-text">Call Us</h6>
+            </div>
+            <div class="figure-property__content">
+              <ul class="figure-property__list">
+                <li class="figure-property__item">
+                  <div class="split-text">+353 66 976 1258</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="header__wrapper-property">
+          <div class="figure-property">
+            <div class="figure-property__wrapper-heading">
+              <h6 class="split-text">E-mail</h6>
+            </div>
+            <div class="figure-property__content">
+              <ul class="figure-property__list">
+                <li class="figure-property__item">
+                  <div class="split-text"><a href="mailto:MBSOSoftware@fexco.com">MBSOSoftware@fexco.com</a></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="header__wrapper-property">
+          <div class="figure-property">
+            <div class="figure-property__wrapper-heading">
+              <h6 class="split-text">Address</h6>
+            </div>
+            <div class="figure-property__content">
+              <ul class="figure-property__list">
+                <li class="figure-property__item">
+                  <div class="split-text">Iveragh Rd<br>Killorglin<br>Co Kerry <br>Ireland</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- - information -->
+    </div>
+  </header>
+  <!-- - PAGE HEADER -->
+  <!-- PAGE MAIN-->
+  <main class="page-wrapper" id="js-smooth-scroll" data-barba="container" data-barba-namespace="light">
+    <!-- section MASTHEAD -->
+    <section class="bg_fexPurple color-white section section-masthead section_pt section_pb" data-os-animation="data-os-animation">
+      <div class="container-fluid">
+        <header class="row section-masthead__header">
+          <div class="col">
+            <h1 class="split-chars">Contact Us</h1>
+            <div class="section__headline"></div>
+          </div>
+        </header>
+        <div class="row section-masthead__properties">
+          <div class="col-lg-auto col-sm-6 section-masthead__wrapper-property">
+            <div class="figure-property">
+              <div class="figure-property__wrapper-heading">
+                <h6 class="split-text">Telephone</h6>
+              </div>
+              <div class="figure-property__content">
+                <ul class="figure-property__list">
+                  <li class="figure-property__item">
+                    <div class="split-text">+353 66 976 1258<br></div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-auto col-sm-6 section-masthead__wrapper-property">
+            <div class="figure-property">
+              <div class="figure-property__wrapper-heading">
+                <h6 class="split-text">E-mail</h6>
+              </div>
+              <div class="figure-property__content">
+                <ul class="figure-property__list">
+                  <li class="figure-property__item">
+                    <div class="split-text"><a href="mailto:support@mbsosoftware.com">support@mbso.com</a></div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-auto col-sm-6 section-masthead__wrapper-property">
+            <div class="figure-property">
+              <div class="figure-property__wrapper-heading">
+                <h6 class="split-text">Address</h6>
+              </div>
+              <div class="figure-property__content">
+                <ul class="figure-property__list">
+                  <li class="figure-property__item">
+                    <div class="split-text">Iveragh Road<br>Killorglin<br>Co Kerry, Ireland</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- - section MASTHEAD -->
+    <!-- section MAP -->
+    <section class="section section-map">
+      <div class="section-map__content">
+        <div class="section-map__wrapper-map">
+          <div class="gmap" data-gmap-zoom="14"
+            data-gmap-snazzy-styles="[{&quot;featureType&quot;: &quot;all&quot;,
+              &quot;elementType&quot;: &quot;labels&quot;,&quot;stylers&quot;: [{&quot;visibility&quot;: &quot;on&quot;}]},{&quot;featureType&quot;: &quot;all&quot;,&quot;elementType&quot;: &quot;labels.text.fill&quot;,&quot;stylers&quot;: [{&quot;saturation&quot;: 36},{
+              &quot;color&quot;: &quot;#000000&quot;},{&quot;lightness&quot;: 40}]},{&quot;featureType&quot;: &quot;all&quot;,&quot;elementType&quot;: &quot;labels.text.stroke&quot;,&quot;stylers&quot;: [{&quot;visibility&quot;: &quot;on&quot;},{&quot;color&quot;: &quot;#000000&quot;},
+              {&quot;lightness&quot;: 16}]},{&quot;featureType&quot;: &quot;all&quot;,&quot;elementType&quot;: &quot;labels.icon&quot;,&quot;stylers&quot;: [{&quot;visibility&quot;: &quot;off&quot;}]},{&quot;featureType&quot;: &quot;administrative&quot;,&quot;elementType&quot;: &quot;geometry.fill&quot;,&quot;stylers&quot;: [{&quot;color&quot;: &quot;#000000&quot;},{&quot;lightness&quot;: 20}]},{&quot;featureType&quot;: &quot;administrative&quot;,&quot;elementType&quot;: &quot;geometry.stroke&quot;,&quot;stylers&quot;: [{&quot;color&quot;: &quot;#000000&quot;},{&quot;lightness&quot;: 17},{&quot;weight&quot;: 1.2}]},{&quot;featureType&quot;: &quot;administrative.country&quot;,
+              &quot;elementType&quot;: &quot;labels.text.fill&quot;,&quot;stylers&quot;: [{&quot;color&quot;: &quot;#e5c163&quot;}]},{
+              &quot;featureType&quot;: &quot;administrative.locality&quot;,&quot;elementType&quot;: &quot;labels.text.fill&quot;,&quot;stylers&quot;: [
+              {&quot;color&quot;: &quot;#c4c4c4&quot;}]},{&quot;featureType&quot;: &quot;administrative.neighborhood&quot;,&quot;elementType&quot;: &quot;labels.text.fill&quot;,&quot;stylers&quot;: [{&quot;color&quot;: &quot;#e5c163&quot;}]},{&quot;featureType&quot;: &quot;landscape&quot;,&quot;elementType&quot;: &quot;geometry&quot;,&quot;stylers&quot;: [{&quot;color&quot;: &quot;#000000&quot;},{
+              &quot;lightness&quot;: 20}]},{&quot;featureType&quot;: &quot;poi&quot;,&quot;elementType&quot;: &quot;geometry&quot;,&quot;stylers&quot;: [{&quot;color&quot;: &quot;#000000&quot;},{&quot;lightness&quot;: 21},{&quot;visibility&quot;: &quot;on&quot;}]},{
+              &quot;featureType&quot;: &quot;poi.business&quot;,&quot;elementType&quot;: &quot;geometry&quot;,&quot;stylers&quot;: [{
+              &quot;visibility&quot;: &quot;on&quot;
+              }]},{&quot;featureType&quot;: &quot;road.highway&quot;,&quot;elementType&quot;: &quot;geometry.fill&quot;,&quot;stylers&quot;: [
+              {&quot;color&quot;: &quot;#e5c163&quot;},{&quot;lightness&quot;: &quot;0&quot;}]},{
+              &quot;featureType&quot;: &quot;road.highway&quot;,&quot;elementType&quot;: &quot;geometry.stroke&quot;,&quot;stylers&quot;: [
+              {&quot;visibility&quot;: &quot;off&quot;}]},{&quot;featureType&quot;: &quot;road.highway&quot;,&quot;elementType&quot;: &quot;labels.text.fill&quot;,&quot;stylers&quot;: [{&quot;color&quot;: &quot;#ffffff&quot;}]},{&quot;featureType&quot;: &quot;road.highway&quot;,&quot;elementType&quot;: &quot;labels.text.stroke&quot;,&quot;stylers&quot;: [{&quot;color&quot;: &quot;#e5c163&quot;
+              }]},{&quot;featureType&quot;: &quot;road.arterial&quot;,&quot;elementType&quot;: &quot;geometry&quot;,&quot;stylers&quot;: [
+              {&quot;color&quot;: &quot;#000000&quot;},{&quot;lightness&quot;: 18}]},{&quot;featureType&quot;: &quot;road.arterial&quot;,
+              &quot;elementType&quot;: &quot;geometry.fill&quot;,&quot;stylers&quot;: [{&quot;color&quot;: &quot;#575757&quot;}]},{
+              &quot;featureType&quot;: &quot;road.arterial&quot;,&quot;elementType&quot;: &quot;labels.text.fill&quot;,&quot;stylers&quot;: [
+              {&quot;color&quot;: &quot;#ffffff&quot;}]},{&quot;featureType&quot;: &quot;road.arterial&quot;,&quot;elementType&quot;: &quot;labels.text.stroke&quot;,&quot;stylers&quot;: [{&quot;color&quot;: &quot;#2c2c2c&quot;}]},{&quot;featureType&quot;: &quot;road.local&quot;,&quot;elementType&quot;: &quot;geometry&quot;,&quot;stylers&quot;: [{&quot;color&quot;: &quot;#000000&quot;},
+              {&quot;lightness&quot;: 16}]},{&quot;featureType&quot;: &quot;road.local&quot;,&quot;elementType&quot;: &quot;labels.text.fill&quot;,
+              &quot;stylers&quot;: [{&quot;color&quot;: &quot;#999999&quot;}]},{&quot;featureType&quot;: &quot;transit&quot;,&quot;elementType&quot;: &quot;geometry&quot;,&quot;stylers&quot;: [{&quot;color&quot;: &quot;#000000&quot;},{&quot;lightness&quot;: 19}]},
+              {&quot;featureType&quot;: &quot;water&quot;,&quot;elementType&quot;: &quot;geometry&quot;,&quot;stylers&quot;: [{&quot;color&quot;: &quot;#000000&quot;},{&quot;lightness&quot;: 17}]}]">
+            <div class="gmap__container bg-black"></div>
+            <div class="gmap__marker d-none animated bounceIn" data-marker-lat="52.1066869" data-marker-lon="-9.7921238"
+              data-marker-content="MBSO Headquarters" data-marker-img="img/general/marker2.png"></div>
+          </div>
+        </div>
+        <!-- - google map -->
+        <div class="section-map__wrapper-form bg_fexBlue ">
+          <form class="form js-ajax-form" action="mail.php" method="POST"
+            data-message-success="Thanks for your message! We will reply you as soon as possible."
+            data-message-error="Something went wrong :( Please contact us directly on mbso@example.com">
+            <div class="row form__header ">
+              <div class="col">
+                <h2>Send Us a Message</h2>
+              </div>
+            </div>
+            <div class="row form__row">
+              <div class="col form__col">
+                <label class="input-float js-input-float">
+                  <input class="input-float__input" type="text" name="visitor_name" data-msg="Please enter your name"
+                    required="required" /><span class="input-float__label">Your name</span><span
+                    class="form__error"></span>
+                </label>
+              </div>
+            </div>
+            <div class="row form__row">
+              <div class="col form__col">
+                <label class="input-float js-input-float">
+                  <input class="input-float__input" type="email" name="visitor_email"
+                    data-msg="Please enter a correct e-mail" required="required" /><span
+                    class="input-float__label">Email</span><span class="form__error"></span>
+                </label>
+              </div>
+            </div>
+            <div class="row form__row">
+              <div class="col form__col">
+                <label class="input-float js-input-float">
+                  <textarea class="input-float__input input-float__input_textarea" name="visitor_msg"></textarea><span
+                    class="input-float__label">Comments</span><span class="form__error"></span>
+                </label>
+              </div>
+            </div>
+            <div class="row form__row">
+              <div class="col form__col form__col_submit text-center">
+                <button class="button button_solid button_fexco button_fullwidth" type="submit"><span>Send
+                    Message</span></button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- - section MAP -->
+    <!-- - section TEAM -->
+    <footer class="footer container-fluid bg_fexRed">
+      <div class="footer__area-primary">
+        <div class="row">
+          <div class="col-lg-4 footer__col">
+            <section class="widget widget_ruben_logo"><a class="logo" href="index.html">
+                <div class="logo__text">MBSO</div>
+              </a>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum similique quia accusantium tempora
+                accusamus omnis mollitia excepturi, dicta, soluta, nesciunt placeat. Ea ipsa eius voluptatem ex
+                voluptate dolore. Beatae, nulla?</p>
+            </section>
+          </div>
+          <div class="col-lg-4 footer__col">
+            <section class="widget widget_ruben_social">
+              <ul class="social">
+                <li class="social__item"><a class="fa fa-facebook-f" href="#"></a></li>
+                <li class="social__item"><a class="fa fa-twitter" href="#"></a></li>
+                <li class="social__item"><a class="fa fa-instagram" href="#"></a></li>
+                <li class="social__item"><a class="fa fa-behance" href="#"></a></li>
+              </ul>
+            </section>
+          </div>
+          <div class="col-lg-4 footer__col">
+            <section class="widget widget_ruben_contacts">
+              <p>+353 66 1234567</p>
+              <p><a href="mailto:MBSOSoftware@fexco.com">MBSOSoftware@fexco.com</a></p>
+            </section>
+          </div>
+        </div>
+      </div>
+      <div class="footer__area-secondary">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-12 footer__col">
+            <section class="widget widget_ruben_copyright"><small>© 2019 powered by MBSO. <a
+                  href="https://lorem.com">MBSODOTCOM</a></small>
+            </section>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- GOOGLE MAPS -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGCk-PSeQLELaQ8isJesmpyqW1snPZU2s"></script>
+  <!-- - GOOGLE MAPS -->
+  <!-- VENDOR SCRIPTS -->
+  <script src="js/vendor.js"></script>
+  <!-- - VENDOR SCRIPTS -->
+  <!-- COMPONENTS -->
+  <script src="js/main.min.js"></script>
+  <!-- - COMPONENTS -->
+</body>
+
+</html>

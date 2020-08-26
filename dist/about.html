@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <title>MBSO - Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta content="telephone=no" name="format-detection" />
+        <meta name="HandheldFriendly" content="true" />
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Oswald:500%7CPoppins:200,300,300i,400,400i,600,600i%7CMaterial+Icons" />
+        <link rel="stylesheet" href="css/vendor.min.css" />
+        <link rel="stylesheet" href="css/main.min.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+      
+        <link rel="manifest" href="img/content/manifest.json" />
+      
+      </head>
+  <body data-barba="wrapper">
+  <!-- Cursor follower-->
+  <div class="cursor" id="js-cursor">
+      <div class="cursor__follower">
+        <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink">
+          <circle id="inner" cx="50" cy="50" r="40" />
+          <circle id="outter" cx="50" cy="50" r="40" />
+        </svg>
+      </div>
+    </div>
+    <!-- - Cursor follower-->
+    <!-- Project hover backgrounds-->
+    <div class="project-backgrounds">
+      <div class="project-backgrounds__background lazy-bg" data-src="img/assets/projects/slide@3x.png"
+        data-background-for="1"></div>
+      <div class="project-backgrounds__background lazy-bg" data-src="img/assets/projects/slide2@3x.png"
+        data-background-for="2"></div>
+      <div class="project-backgrounds__background lazy-bg" data-src="img/assets/projects/slide3@3x.png"
+        data-background-for="3"></div>
+  
+      <div class="project-backgrounds__overlay overlay overlay_dark"></div>
+    </div>
+    <!-- - Project hover backgrounds-->
+    <!-- PAGE PRELOADER -->
+    <div class="preloader">
+      <div class="preloader__curtain bg-dark-2"></div>
+    </div>
+    <!-- - PAGE PRELOADER -->
+    <!-- PAGE HEADER -->
+    <header class="header header_fixed container-fluid header_white">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-auto header__col-left"><a class="logo" href="index.html">
+            <div class="logo__text">MBSO</div>
+          </a>
+        </div>
+        <div class="col-auto header__col-right">
+          <div class="header__burger" id="js-burger">
+            <div class="header__burger-line"></div>
+            <div class="header__burger-line"></div>
+            <div class="header__burger-line"></div>
+          </div>
+        </div>
+      </div>
+      <!--Navigation-->
+      <div class="header__wrapper-overlay-menu">
+        <div class="header__overlay-menu-back material-icons" id="js-submenu-back">arrow_back</div>
+        <div class="header__wrapper-menu">
+          <ul class="menu-overlay js-menu-overlay">
+  
+            <li class="menu-item-has-children"><a href="#">
+                <div class="menu-overlay__item-wrapper"><span class="split-chars">Portfolio</span></div>
+              </a>
+              <ul class="sub-menu">
+                <li><a href="project.html" data-post-id="1" data-pjax-link="overlayMenu">
+                    <div class="menu-overlay__item-wrapper"><span class="split-chars">Software</span></div>
+                  </a>
+                </li>
+                <li><a href="project.html" data-post-id="2" data-pjax-link="overlayMenu">
+                    <div class="menu-overlay__item-wrapper"><span class="split-chars">Digital Creation</span></div>
+                  </a>
+                </li>
+  
+              </ul>
+            </li>
+            <li><a href="services.html" data-pjax-link="overlayMenu">
+                <div class="menu-overlay__item-wrapper"><span class="split-chars">Services</span></div>
+              </a>
+            </li>
+            <li><a href="about.html" data-pjax-link="overlayMenu">
+                <div class="menu-overlay__item-wrapper"><span class="split-chars">About</span></div>
+              </a>
+            </li>
+            <li><a href="contacts.html" data-pjax-link="overlayMenu">
+                <div class="menu-overlay__item-wrapper"><span class="split-chars">Contact Us</span></div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- - menu -->
+        <div class="header__wrapper-overlay-widgets color-white bg-secondary">
+          <div class="header__wrapper-property">
+            <div class="figure-property">
+              <div class="figure-property__wrapper-heading">
+                <h6 class="split-text">Call Us</h6>
+              </div>
+              <div class="figure-property__content">
+                <ul class="figure-property__list">
+                  <li class="figure-property__item">
+                    <div class="split-text">+353 66 97123456</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="header__wrapper-property">
+            <div class="figure-property">
+              <div class="figure-property__wrapper-heading">
+                <h6 class="split-text">E-mail</h6>
+              </div>
+              <div class="figure-property__content">
+                <ul class="figure-property__list">
+                  <li class="figure-property__item">
+                    <div class="split-text"><a href="mailto:MBSOSoftware@fexco.com">MBSOSoftware@fexco.com</a></div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="header__wrapper-property">
+            <div class="figure-property">
+              <div class="figure-property__wrapper-heading">
+                <h6 class="split-text">Address</h6>
+              </div>
+              <div class="figure-property__content">
+                <ul class="figure-property__list">
+                  <li class="figure-property__item">
+                    <div class="split-text">Iveragh Rd<br>Killorglin<br>Co Kerry <br>Ireland</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- - information -->
+      </div>
+    </header>
+    <!-- - PAGE HEADER -->
+    <!-- PAGE MAIN-->
+    <main class="page-wrapper" id="js-smooth-scroll" data-barba="container" data-barba-namespace="dark">
+      <!-- section MASTHEAD -->
+      <section class="bg_fexPurple color-white section section-masthead section_pt section_pb" data-os-animation="data-os-animation">
+        <div class="container-fluid">
+          <header class="row section-masthead__header">
+            <div class="col">
+              <h1 class="split-chars">About Us</h1>
+              <div class="section__headline"></div>
+              <h2 class="heading-light split-text"><strong>MBSO</strong> is a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque deserunt natus sed dicta! Animi vitae iure ex, modi voluptates fugiat, praesentium veritatis molestias sit autem tempore ipsa officiis fuga illo! agency based in Killorglin, Co. Kerry Ireland. </h2>
+            </div>
+          </header>
+        </div>
+      </section>
+      <!-- - section MASTHEAD -->
+
+      <!-- section AWARDS -->
+      <section class="section section-content section_pt section_pb bg_fexBlue" data-os-animation="data-os-animation">
+        <div class="container section-content__container">
+          <div class="row justify-content-between section-content__row">
+            <header class="col-lg-5 section__header section-content__inner_header">
+              <h2 class="split-chars">Award winning creative agency</h2>
+              <div class="section__headline"></div>
+            </header>
+            <div class="col-lg-6 section-content__inner section-content__inner_text">
+              <h3 class="split-text">The regognition reflects game changing creativity, bold leadership and the ability to point the industry in new directions.</h3>
+            </div>
+          </div>
+          <div class="section-content__main-content">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 section-content__wrapper-item">
+                <div class="figure-property">
+                  <div class="figure-property__wrapper-heading figure-property__wrapper-heading_border figure-property__wrapper-heading_bold">
+                    <div class="figure-property__headline"></div>
+                    <h6 class="split-text">2013</h6>
+                  </div>
+                  <div class="figure-property__content">
+                    <ul class="figure-property__list">
+                      <li class="figure-property__item">
+                        <div class="split-text">Creation of Analytics and Solution Team</div>
+                      </li>
+                      <li class="figure-property__item">
+                        <div class="split-text">First BXP Solution Delivered</div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 section-content__wrapper-item">
+                <div class="figure-property">
+                  <div class="figure-property__wrapper-heading figure-property__wrapper-heading_border figure-property__wrapper-heading_bold">
+                    <div class="figure-property__headline"></div>
+                    <h6 class="split-text">2014</h6>
+                  </div>
+                  <div class="figure-property__content">
+                    <ul class="figure-property__list">
+                      <li class="figure-property__item">
+                        <div class="split-text">Team grew by 2 new developers </div>
+                      </li>
+                      <li class="figure-property__item">
+                        <div class="split-text">100+ Fexco Staff using BXP </div>
+                      </li>
+                      <li class="figure-property__item">
+                        <div class="split-text">Secure file transfer setup between BXP & Oracle </div>
+                      </li>
+                      
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 section-content__wrapper-item">
+                <div class="figure-property">
+                  <div class="figure-property__wrapper-heading figure-property__wrapper-heading_border figure-property__wrapper-heading_bold">
+                    <div class="figure-property__headline"></div>
+                    <h6 class="split-text">2015</h6>
+                  </div>
+                  <div class="figure-property__content">
+                    <ul class="figure-property__list">
+                      <li class="figure-property__item">
+                        <div class="split-text">UX and Gaming Developer Joined Team </div>
+                      </li>
+                      <li class="figure-property__item">
+                        <div class="split-text">First Gamification solution delivered </div>
+                      </li>
+
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 section-content__wrapper-item">
+                <div class="figure-property">
+                  <div class="figure-property__wrapper-heading figure-property__wrapper-heading_border figure-property__wrapper-heading_bold">
+                    <div class="figure-property__headline"></div>
+                    <h6 class="split-text">2016</h6>
+                  </div>
+                  <div class="figure-property__content">
+                    <ul class="figure-property__list">
+                      <li class="figure-property__item">
+                        <div class="split-text">First BPI Pop up shop held</div>
+                      </li>
+                      <li class="figure-property__item">
+                        <div class="split-text">500+ users on BXP </div>
+                      </li>
+                      <li class="figure-property__item">
+                        <div class="split-text">BXP QA solution replaced Score buddy</div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 section-content__wrapper-item">
+                <div class="figure-property">
+                  <div class="figure-property__wrapper-heading figure-property__wrapper-heading_border figure-property__wrapper-heading_bold">
+                    <div class="figure-property__headline"></div>
+                    <h6 class="split-text">2017</h6>
+                  </div>
+                  <div class="figure-property__content">
+                    <ul class="figure-property__list">
+                      <li class="figure-property__item">
+                        <div class="split-text">Team growth - 1 new Software developer</div>
+                      </li>
+                      <li class="figure-property__item">
+                        <div class="split-text">Team growth - 1 new UX and Digital Designer</div>
+                      </li>
+                      
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 section-content__wrapper-item">
+                <div class="figure-property">
+                  <div class="figure-property__wrapper-heading figure-property__wrapper-heading_border figure-property__wrapper-heading_bold">
+                    <div class="figure-property__headline"></div>
+                    <h6 class="split-text">2018</h6>
+                  </div>
+                  <div class="figure-property__content">
+                    <ul class="figure-property__list">
+                      <li class="figure-property__item">
+                        <div class="split-text">First Showcase held</div>
+                      </li>
+                      <li class="figure-property__item">
+                        <div class="split-text">First VR and AR Solution </div>
+                      </li>
+                      <li class="figure-property__item">
+                        <div class="split-text">Creation of the Digital creations team </div>
+                      </li>
+                      <li class="figure-property__item">
+                        <div class="split-text">Team growth - 2 new Software developer</div>
+                      </li>
+                      <li class="figure-property__item">
+                        <div class="split-text">600+ Users on BXP </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 section-content__wrapper-item">
+                <div class="figure-property">
+                  <div class="figure-property__wrapper-heading figure-property__wrapper-heading_border figure-property__wrapper-heading_bold">
+                    <div class="figure-property__headline"></div>
+                    <h6 class="split-text">2019</h6>
+                  </div>
+                  <div class="figure-property__content">
+                    <ul class="figure-property__list">
+                      <li class="figure-property__item">
+                        <div class="split-text">Team Rebranded to MBSO Software and Digital Creations </div>
+                      </li>
+                      <li class="figure-property__item">
+                        <div class="split-text">Launch of Portfolio </div>
+                      </li>
+                      <li class="figure-property__item">
+                        <div class="split-text">Outsourcing  partnership with AllnOne </div>
+                      </li>
+                      <li class="figure-property__item">
+                        <div class="split-text">Team growth - 2 new Software developer</div>
+                      </li>
+                      <li class="figure-property__item">
+                        <div class="split-text">Genesys Implementation </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- - section AWARDS -->
+      <!-- section TEAM -->
+      <section class="section section-content bg_fexBlue2 section_pt section_pb" data-os-animation="data-os-animation">
+          <div class="container section-content__container black_font">
+            <div class="row justify-content-between section-content__row">
+              <header class="col-lg-5 section__header section-content__inner_header">
+                <h2 class="split-chars">Team of creators</h2>
+                <div class="section__headline"></div>
+              </header>
+              <div class="col-lg-6 section-content__inner section-content__inner_text">
+                <h3 class="split-text">We are fostering a collaborative, team-based approach in order to cultivate the flow of nice creative ideas and let our team members unleash their creativity.</h3>
+              </div>
+            </div>
+            <div class="section-content__main-content">
+              <div class="row">
+                <div class="col">
+                  <div class="grid grid_50 js-grid">
+                    <div class="col-lg-4 col-md-6 grid__item grid__item_50 grid__sizer js-grid__sizer"></div>
+                    <div class="col-lg-4 col-md-6 grid__item grid__item_50 js-grid__item">
+                      <div class="figure-member figure-member_has-social">
+                        <div class="figure-member__wrapper-img grayscale">
+                          <div class="lazy"><img data-src="img/assets/sectionTeam/img-1.jpg" src="#" alt="" width="300" height="450"/></div>
+                          <div class="figure-member__social">
+                            <ul class="social">
+                              <li class="social__item"><a class="fa fa-facebook-f" href="#"></a></li>
+                              <li class="social__item"><a class="fa fa-twitter" href="#"></a></li>
+                              <li class="social__item"><a class="fa fa-instagram" href="#"></a></li>
+                              <!--  <li class="social__item"><a class="fa fa-behance" href="#"></a></li> --> 
+                            </ul>
+                          </div>
+                          <div class="figure-member__overlay"></div>
+                        </div>
+                        <div class="figure-member__content">
+                          <div class="figure-member__position">Manager</div>
+                          <h4>Patrick Le Roux Falvey</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 grid__item grid__item_50 js-grid__item">
+                      <div class="figure-member figure-member_has-social">
+                        <div class="figure-member__wrapper-img grayscale">
+                          <div class="lazy">
+                            <img data-src="img/assets/sectionTeam/img-2.jpg" src="#" alt="" width="300" height="450"/>
+                          </div>
+                          <div class="figure-member__social">
+                            <ul class="social">
+                              <li class="social__item"><a class="fa fa-envelope" href="mailto:pfalvey@fexco.com?Subject=Portfolio%20Enquiry"></a></li>
+                              <li class="social__item"><a class="fa fa-facebook-f" href="#"></a></li>
+                              <li class="social__item"><a class="fa fa-twitter" href="#"></a></li>
+                              <li class="social__item"><a class="fa fa-instagram" href="#"></a></li>
+                              <!-- <li class="social__item"><a class="fa fa-behance" href="#"></a></li> -->
+                            </ul>
+                          </div>
+                          <div class="figure-member__overlay"></div>
+                        </div>
+                        <div class="figure-member__content">
+                          <div class="figure-member__position">Senior Frontend Developer</div>
+                          <h4>Bartley O'Shea</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 grid__item grid__item_50 js-grid__item">
+                      <div class="figure-member figure-member_has-social">
+                        <div class="figure-member__wrapper-img grayscale">
+                          <div class="lazy"><img data-src="img/assets/sectionTeam/andy.png" src="#" alt="" width="300" height="450"/></div>
+                          <div class="figure-member__social">
+                            <ul class="social">
+                              
+                              <li class="social__item"><a class="fa fa-envelope" href="mailto:adaly@fexco.com?Subject=Portfolio%20Enquiry"></a></li>
+                              <li class="social__item"><a class="fa fa-facebook-f" href="#"></a></li>
+                              <li class="social__item"><a class="fa fa-twitter" href="#"></a></li>
+                              <li class="social__item"><a class="fa fa-instagram" href="#"></a></li>
+                              <!-- <li class="social__item"><a class="fa fa-behance" href="#"></a></li> -->
+                            </ul>
+                          </div>
+                          <div class="figure-member__overlay"></div>
+                        </div>
+                        <div class="figure-member__content">
+                          <div class="figure-member__position">Frontend Developer</div>
+                          <h4>Andrew Daly</h4> 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 grid__item grid__item_50 js-grid__item">
+                      <div class="figure-member figure-member_has-social">
+                        <div class="figure-member__wrapper-img grayscale">
+                          <div class="lazy"><img data-src="img/assets/sectionTeam/img-4.jpg" src="#" alt="" width="300" height="450"/></div>
+                          <div class="figure-member__social">
+                            <ul class="social">
+                              <li class="social__item"><a class="fa fa-facebook-f" href="#"></a></li>
+                              <li class="social__item"><a class="fa fa-twitter" href="#"></a></li>
+                              <li class="social__item"><a class="fa fa-instagram" href="#"></a></li>
+                              <!-- <li class="social__item"><a class="fa fa-behance" href="#"></a></li> -->
+                            </ul>
+                          </div>
+                          <div class="figure-member__overlay"></div>
+                        </div>
+                        <div class="figure-member__content">
+                          <div class="figure-member__position">UX / Digital Designer </div>
+                          <h4>Christian Gyalus</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 grid__item grid__item_50 js-grid__item">
+                      <div class="figure-member figure-member_has-social">
+                        <div class="figure-member__wrapper-img grayscale">
+                          <div class="lazy"><img data-src="img/assets/sectionTeam/img-5.jpg" src="#" alt="" width="300" height="450"/></div>
+                          <div class="figure-member__social">
+                            <ul class="social">
+                              <li class="social__item"><a class="fa fa-facebook-f" href="#"></a></li>
+                              <li class="social__item"><a class="fa fa-twitter" href="#"></a></li>
+                              <li class="social__item"><a class="fa fa-instagram" href="#"></a></li>
+                              <!-- <li class="social__item"><a class="fa fa-behance" href="#"></a></li> -->
+                            </ul>
+                          </div>
+                          <div class="figure-member__overlay"></div>
+                        </div>
+                        <div class="figure-member__content">
+                          <div class="figure-member__position">Graphic Designer</div>
+                          <h4>Kerry O'Connor</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 grid__item grid__item_50 js-grid__item">
+                      <div class="figure-member figure-member_has-social">
+                        <div class="figure-member__wrapper-img grayscale">
+                          <div class="lazy"><img data-src="img/assets/sectionTeam/img-6.jpg" src="#" alt="" width="300" height="450"/></div>
+                          <div class="figure-member__social">
+                            <ul class="social">
+                              <li class="social__item"><a class="fa fa-facebook-f" href="#"></a></li>
+                              <li class="social__item"><a class="fa fa-twitter" href="#"></a></li>
+                              <li class="social__item"><a class="fa fa-instagram" href="#"></a></li>
+                              <!-- <li class="social__item"><a class="fa fa-behance" href="#"></a></li> -->
+                            </ul>
+                          </div>
+                          <div class="figure-member__overlay"></div>
+                        </div>
+                        <div class="figure-member__content">
+                          <div class="figure-member__position">Frontend Developer</div>
+                          <h4>Patrick Tangney</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 grid__item grid__item_50 js-grid__item">
+                      <div class="figure-member figure-member_has-social">
+                        <div class="figure-member__wrapper-img grayscale">
+                          <div class="lazy"><img data-src="img/assets/sectionTeam/img-4.jpg" src="#" alt="" width="300" height="450"/></div>
+                          <div class="figure-member__social">
+                            <ul class="social">
+                              <li class="social__item"><a class="fa fa-facebook-f" href="#"></a></li>
+                              <li class="social__item"><a class="fa fa-twitter" href="#"></a></li>
+                              <li class="social__item"><a class="fa fa-instagram" href="#"></a></li>
+                              <!-- <li class="social__item"><a class="fa fa-behance" href="#"></a></li> -->
+                            </ul>
+                          </div>
+                          <div class="figure-member__overlay"></div>
+                        </div>
+                        <div class="figure-member__content">
+                          <div class="figure-member__position">Frontend Developer</div>
+                          <h4>Gavin Everett</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 grid__item grid__item_50 js-grid__item">
+                      <div class="figure-member figure-member_has-social">
+                        <div class="figure-member__wrapper-img grayscale">
+                          <div class="lazy"><img data-src="img/assets/sectionTeam/img-5.jpg" src="#" alt="" width="300" height="450"/></div>
+                          <div class="figure-member__social">
+                            <ul class="social">
+                              <li class="social__item"><a class="fa fa-facebook-f" href="#"></a></li>
+                              <li class="social__item"><a class="fa fa-twitter" href="#"></a></li>
+                              <li class="social__item"><a class="fa fa-instagram" href="#"></a></li>
+                              <!-- <li class="social__item"><a class="fa fa-behance" href="#"></a></li> -->
+                            </ul>
+                          </div>
+                          <div class="figure-member__overlay"></div>
+                        </div>
+                        <div class="figure-member__content">
+                          <div class="figure-member__position">Frontend Developer</div>
+                          <h4>Paudie Healy</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 grid__item grid__item_50 js-grid__item">
+                      <div class="figure-member figure-member_has-social">
+                        <div class="figure-member__wrapper-img grayscale">
+                          <div class="lazy"><img data-src="img/assets/sectionTeam/img-6.jpg" src="#" alt="" width="300" height="450"/></div>
+                          <div class="figure-member__social">
+                            <ul class="social">
+                              <li class="social__item"><a class="fa fa-facebook-f" href="#"></a></li>
+                              <li class="social__item"><a class="fa fa-twitter" href="#"></a></li>
+                              <li class="social__item"><a class="fa fa-instagram" href="#"></a></li>
+                              <!-- <li class="social__item"><a class="fa fa-behance" href="#"></a></li> -->
+                            </ul>
+                          </div>
+                          <div class="figure-member__overlay"></div>
+                        </div>
+                        <div class="figure-member__content">
+                          <div class="figure-member__position">Graphic Designer</div>
+                          <h4>Diana Griffin</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- - section TEAM -->
+      <!-- section PARTNERS -->
+      <section class="section section-content bg_fexGrey section_pt section_pb" data-os-animation="data-os-animation">
+        <div class="container section-content__container">
+          <div class="row justify-content-between section-content__row">
+            <header class="col-lg-5 section__header section-content__inner_header">
+              <h2 class="split-chars">Our partners</h2>
+              <div class="section__headline"></div>
+            </header>
+            <div class="col-lg-6 section-content__inner section-content__inner_text">
+              <h3 class="split-text">We love to collaborate with ambitious brands to deliver better digital experience to the people.</h3>
+            </div>
+          </div>
+          <div class="section-content__main-content">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 section-content__wrapper-item">
+                <div class="figure-logo grayscale bg-light-grey">
+                  <div class="lazy"><img data-src="https://picsum.photos/167/117?random=1" src="#" alt=""/></div>
+                  <div class="figure-logo__description">
+                    <p>lorem company</p>
+                    <div class="figure-logo__line"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 section-content__wrapper-item">
+                <div class="figure-logo grayscale bg-light-grey">
+                  <div class="lazy"><img data-src="https://picsum.photos/167/117?random=2" src="#" alt=""/></div>
+                  <div class="figure-logo__description">
+                    <p>lorem company</p>
+                    <div class="figure-logo__line"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 section-content__wrapper-item">
+                <div class="figure-logo grayscale bg-light-grey">
+                  <div class="lazy"><img data-src="https://picsum.photos/167/117?random=3" src="#" alt=""/></div>
+                  <div class="figure-logo__description">
+                    <p>lorem company</p>
+                    <div class="figure-logo__line"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 section-content__wrapper-item">
+                <div class="figure-logo grayscale bg-light-grey">
+                  <div class="lazy"><img data-src="https://picsum.photos/167/117?random=4" src="#" alt=""/></div>
+                  <div class="figure-logo__description">
+                    <p>lorem company</p>
+                    <div class="figure-logo__line"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 section-content__wrapper-item">
+                <div class="figure-logo grayscale bg-light-grey">
+                  <div class="lazy"><img data-src="https://picsum.photos/167/117?random=5" src="#" alt=""/></div>
+                  <div class="figure-logo__description">
+                    <p>lorem company</p>
+                    <div class="figure-logo__line"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 section-content__wrapper-item">
+                <div class="figure-logo grayscale bg-light-grey">
+                  <div class="lazy"><img data-src="https://picsum.photos/167/117?random=6" src="#" alt=""/></div>
+                  <div class="figure-logo__description">
+                    <p>lorem company</p>
+                    <div class="figure-logo__line"></div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- - section PARTNERS -->
+      
+      <footer class="footer container-fluid bg_fexRed">
+        <div class="footer__area-primary">
+          <div class="row">
+            <div class="col-lg-4 footer__col">
+              <section class="widget widget_ruben_logo"><a class="logo" href="index.html">
+                  <div class="logo__text">MBSO</div></a>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum similique quia accusantium tempora accusamus omnis mollitia excepturi, dicta, soluta, nesciunt placeat. Ea ipsa eius voluptatem ex voluptate dolore. Beatae, nulla?</p>
+              </section>
+            </div>
+            <div class="col-lg-4 footer__col">
+              <section class="widget widget_ruben_social">
+                <ul class="social">
+                  <li class="social__item"><a class="fa fa-facebook-f" href="#"></a></li>
+                  <li class="social__item"><a class="fa fa-twitter" href="#"></a></li>
+                  <li class="social__item"><a class="fa fa-instagram" href="#"></a></li>
+                  <!-- <li class="social__item"><a class="fa fa-behance" href="#"></a></li> -->
+                </ul>
+              </section>
+            </div>
+            <div class="col-lg-4 footer__col">
+              <section class="widget widget_ruben_contacts">
+                <p>+353 66 1234567</p>
+                <p><a href="mailto:MBSOSoftware@fexco.com">MBSOSoftware@fexco.com</a></p>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="footer__area-secondary color-white">
+          <div class="row justify-content-between align-items-center">
+            <div class="col-12 footer__col">
+              <section class="widget widget_ruben_copyright"><small>© 2019 powered by MBSO. <a href="https://lorem.com">MBSODOTCOM</a></small>
+              </section>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <!-- - PAGE MAIN-->
+    <!-- GOOGLE MAPS -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkwwH5qz371U04Qe2Ve5qUI2hnI1jVlGk&callback=initMap">
+  </script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?AIzaSyCMDrMzaeoz8AqpXNuaIpCR8OWjZFY6z0A"
+    async defer></script> -->
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMDrMzaeoz8AqpXNuaIpCR8OWjZFY6z0A"></script> -->
+    <!-- - GOOGLE MAPS -->
+    <!-- VENDOR SCRIPTS -->
+    <script src="js/vendor.js"></script>
+    <!-- - VENDOR SCRIPTS -->
+    <!-- COMPONENTS -->
+    <script src="js/main.min.js"></script>
+    <!-- - COMPONENTS -->
+  </body>
+</html>

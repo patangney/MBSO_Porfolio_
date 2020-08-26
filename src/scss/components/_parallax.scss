@@ -1,0 +1,16 @@
+.art-parallax__bg.para {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
+    background-size: auto;
+    background-position: center center;
+  }
+
+  .art-parallax.para > img, [data-art-parallax] > img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }

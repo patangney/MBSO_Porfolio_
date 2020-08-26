@@ -1,0 +1,307 @@
+/* ======================================================================== */
+/* Slider Content */
+/* ======================================================================== */
+// .slider-halfscreen_fullscreen .slider-halfscreen__content {
+//     top: 40%;
+// }
+
+// .slider-halfscreen__content-inner {
+//     margin-top: 20%;
+// }
+
+.margin30 {
+    position: relative;
+    left: 80%;
+    margin-top: 40%;
+
+}
+
+.pos {
+    position: absolute;
+    top: 25%;
+    left: 0;
+}
+
+.pos-link {
+
+    position: absolute;
+    top: 50%;
+    height: auto;
+
+}
+
+.weAre {
+    position: absolute;    
+    overflow: hidden;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #f9f9f9;
+    white-space: nowrap !important; 
+
+    &__small {
+        opacity: 0.38 !important;
+        left: 15%;
+        top: 10%;
+        font-size: 150px;
+        
+        @include phone {
+            font-size: 50px;
+            left: 10px;
+        }
+        @include phonePlus {
+            font-size: 60px;
+            left: 15px;
+        }
+        @include iphonePlus {
+            font-size: 60px;
+        }
+        @include tablet {
+            font-size: 100px;
+            left: 30px;
+        }
+        @include laptop {
+            font-size: 150px;
+        }
+        @include smallScreen {
+            font-size: 200px;
+        }
+    }
+
+    &__big {
+        font-size: 300px;
+        top: -100px;
+        left: -100px;
+        opacity: 0.05;
+
+        @include phone {
+            font-size: 100px;
+            top: -10px;
+            left: 10px;
+        }
+        @include phonePlus {
+            font-size: 100px;
+            top: -10px;
+            left: 10px;
+        }
+        @include iphonePlus {
+            font-size: 60px;
+        }
+        @include tablet {
+            font-size: 200px;
+            top: -50px !important;
+            left: 20px;
+        }
+        @include laptop {
+            font-size: 230px;
+        }
+        @include smallScreen {
+            font-size: 300px;
+        }
+        @include largeScreen {
+            font-size: 300px;
+        }
+
+
+
+    }
+
+    &__ctaOne {
+        left: 0;
+        bottom: 0;
+        opacity: 0.43;
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        writing-mode: tb-rl;
+        transform: rotate(-180deg);
+        font-weight: normal;
+
+        @include phone {
+            position: absolute;
+            bottom: 150px;
+        }
+
+    }
+
+    &__ctaTwo {        
+        opacity: 0.8;        
+        font-size: 21.5px;        
+        color: #ffffff;
+        left: 15%;
+        height: 30px;
+        bottom: 0;
+        font-weight: normal;
+    }
+
+    &__ctaThree {       
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        bottom: -5%;
+        font-size: 150px !important;
+        opacity: 1;
+        font-weight: 600;
+        text-shadow: 0 2.5px 10px rgba(0, 0, 0, 0.49);
+        font-size: 90px;
+        line-height: 1;
+        letter-spacing: normal;
+        text-align: center;
+        color: #edfaa5;
+        overflow: visible;
+    }
+
+    &__parallax {
+        opacity: 0.38 !important;
+        left: 5%;
+        bottom: 0;
+        font-size: 180px;
+        mix-blend-mode: color-burn;
+             
+        
+
+        &--1 {
+            font-size: 300px;
+            opacity: 0.1 !important;
+            mix-blend-mode: soft-light;
+    
+        }
+    }
+}
+
+.pos {
+    position: absolute;
+    // top: 30% !important;
+    left: 0;
+}
+
+/* ======================================================================== */
+/* Section Breaks */
+/* ======================================================================== */
+.section__headline.white {
+
+    width: 80px;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 10px;
+  }
+
+
+/* ======================================================================== */
+/* Media Queries */
+/* ======================================================================== */
+
+// @media screen and (max-width: 768px) {
+//     .weAre {
+//         &__small {
+//             font-size: 100px;
+//             left: -5px;
+//         }
+//     }
+
+//     .pos {
+//         position: absolute;
+//         top: 30% !important;
+//         left: 0;
+//     }
+
+// }
+
+
+
+.slider-halfscreen__content-inner h2 {
+    font-weight: 600;
+    text-shadow: 0 2.5px 10px rgba(0, 0, 0, 0.49);
+    font-size: 90px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #edfaa5;
+
+    @include phone {
+        font-size: 40px;
+    }
+    @include phonePlus {
+        font-size: 40px;
+    }
+    @include iphonePlus {
+        font-size: 50px;
+    }
+    @include tablet {
+        font-size: 90px;
+    }
+    @include laptop {
+        font-size: 150px;
+    }
+    @include smallScreen {
+        font-size: 160px;
+    }
+    @include largeScreen {
+        font-size: 190px;
+    }
+
+
+}
+
+
+.split-text,
+.split-chars {
+
+    //testing positions    
+    // border: 3px solid green;
+
+}
+
+.split-text__line {
+    overflow: hidden;
+}
+
+.split-chars__line {
+    display: inline;
+    overflow: hidden;
+}
+
+
+.bigText {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.38;
+    font-size: 100px;
+}
+
+
+
+.overlayDesign {
+    position: absolute;
+    overflow: hidden;
+    width: 23.5px;
+    height: auto;
+    opacity: 0.43;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    writing-mode: tb-rl;
+    transform: rotate(-180deg);
+
+}
+
+
+/* ======================================================================== */
+/* LOGO */
+/* ======================================================================== */
+
+.logo__text {
+    font-size: 20px !important;
+    transition: 1s;
+
+    &:hover {
+
+        transform: scale(1.5);
+        color: $white;
+    }
+}

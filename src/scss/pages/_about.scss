@@ -1,0 +1,42 @@
+/* ===================================
+    Contact US
+====================================== */
+
+.figure-logo__description:nth-child(odd) {
+    
+    background-color: $aquablue;
+    color: $grey;
+    
+  }
+.figure-logo__description:nth-child(even) {
+    
+    background-color: $purple;
+    color: $grey;
+    
+  }
+
+/* ===================================
+    Profile Pictures
+====================================== */
+
+  .figure-member__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $purple;
+    transition: all 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transform-origin: right center;
+            transform-origin: right center;
+  }
+
+/* ===================================
+    Social Overlay
+====================================== */
+.social__item a {
+  color: #fff !important;
+  font-size: 20px;
+}

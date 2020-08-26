@@ -1,0 +1,19 @@
+body {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    font-family: $baseFont;
+    background-color: #c5c6c9;
+    color: #333333;
+    font-size: 100%;
+    line-height: 1.75;
+    overflow-x: hidden;
+}
+
+.header__overlay-menu-back {
+    color: $third !important;
+  }
+
+.logo {
+    color: #ffffff !important;
+}

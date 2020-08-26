@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>MBSO - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta content="telephone=no" name="format-detection" />
+  <meta name="HandheldFriendly" content="true" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Oswald:500%7CPoppins:200,300,300i,400,400i,600,600i%7CMaterial+Icons" />
+  <link rel="stylesheet" href="css/vendor.min.css" />
+  <link rel="stylesheet" href="css/main.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <link rel="manifest" href="img/content/manifest.json" />
+
+</head>
+
+<body data-barba="wrapper">
+  <!-- Cursor follower-->
+  <div class="cursor" id="js-cursor">
+    <div class="cursor__follower">
+      <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+        <circle id="inner" cx="50" cy="50" r="40" />
+        <circle id="outter" cx="50" cy="50" r="40" />
+      </svg>
+    </div>
+  </div>
+  <!-- - Cursor follower-->
+  <!-- Project hover backgrounds-->
+  <div class="project-backgrounds">
+
+    <div class="project-backgrounds__background lazy-bg" data-src="img/assets/projects/main.png"
+      data-background-for="1"></div>
+    <div class="project-backgrounds__background lazy-bg" data-src="img/assets/projects/main2.png"
+      data-background-for="2"></div>
+    <div class="project-backgrounds__background lazy-bg" data-src="img/assets/projects/main3.png"
+      data-background-for="3"></div>
+
+    <div class="project-backgrounds__overlay overlay overlay_green"></div>
+  </div>
+  <!-- - Project hover backgrounds-->
+  <!-- PAGE PRELOADER -->
+  <div class="preloader">
+    <div class="preloader__curtain bg-dark-2"></div>
+  </div>
+  <!-- - PAGE PRELOADER -->
+  <!-- PAGE HEADER -->
+  <header class="header header_fixed container-fluid header_white">
+    <div class="row justify-content-between align-items-center">
+      <div class="col-auto header__col-left"><a class="logo" href="index.html">
+          <div class="logo__text">MBSO</div>
+        </a>
+      </div>
+      <div class="col-auto header__col-right">
+        <div class="header__burger" id="js-burger">
+          <div class="header__burger-line"></div>
+          <div class="header__burger-line"></div>
+          <div class="header__burger-line"></div>
+        </div>
+      </div>
+    </div>
+    <!--Navigation-->
+    <div class="header__wrapper-overlay-menu">
+      <div class="header__overlay-menu-back material-icons" id="js-submenu-back">arrow_back</div>
+      <div class="header__wrapper-menu">
+        <ul class="menu-overlay js-menu-overlay">
+
+          <li class="menu-item-has-children"><a href="#">
+              <div class="menu-overlay__item-wrapper"><span class="split-chars">Portfolio</span></div>
+            </a>
+            <ul class="sub-menu">
+              <li><a href="project.html" data-post-id="1" data-pjax-link="overlayMenu">
+                  <div class="menu-overlay__item-wrapper"><span class="split-chars">Software</span></div>
+                </a>
+              </li>
+              <li><a href="project.html" data-post-id="2" data-pjax-link="overlayMenu">
+                  <div class="menu-overlay__item-wrapper"><span class="split-chars">Digital Creation</span></div>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+          <li><a href="services.html" data-pjax-link="overlayMenu">
+              <div class="menu-overlay__item-wrapper"><span class="split-chars">Services</span></div>
+            </a>
+          </li>
+          <li><a href="about.html" data-pjax-link="overlayMenu">
+              <div class="menu-overlay__item-wrapper"><span class="split-chars">About</span></div>
+            </a>
+          </li>
+          <li><a href="contacts.html" data-pjax-link="overlayMenu">
+              <div class="menu-overlay__item-wrapper"><span class="split-chars">Contact Us</span></div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- - menu -->
+      <div class="header__wrapper-overlay-widgets color-white bg-secondary">
+        <div class="header__wrapper-property">
+          <div class="figure-property">
+            <div class="figure-property__wrapper-heading">
+              <h6 class="split-text">Call Us</h6>
+            </div>
+            <div class="figure-property__content">
+              <ul class="figure-property__list">
+                <li class="figure-property__item">
+                  <div class="split-text">+353 66 97123456</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="header__wrapper-property">
+          <div class="figure-property">
+            <div class="figure-property__wrapper-heading">
+              <h6 class="split-text">E-mail</h6>
+            </div>
+            <div class="figure-property__content">
+              <ul class="figure-property__list">
+                <li class="figure-property__item">
+                  <div class="split-text"><a href="mailto:enquiry@mbso.com">enquiry@mbso.com</a></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="header__wrapper-property">
+          <div class="figure-property">
+            <div class="figure-property__wrapper-heading">
+              <h6 class="split-text">Address</h6>
+            </div>
+            <div class="figure-property__content">
+              <ul class="figure-property__list">
+                <li class="figure-property__item">
+                  <div class="split-text">Iveragh Rd<br>Killorglin<br>Co Kerry <br>Ireland</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- - information -->
+    </div>
+  </header>
+  <!-- - PAGE HEADER -->
+  <!-- PAGE MAIN-->
+  <main class="page-wrapper bg-black-0 color-white" id="js-smooth-scroll" data-barba="container"
+    data-barba-namespace="dark">
+    <!-- section FULLSCREEN SLIDER -->
+    <section class="section section-fullscreen-slider section-halfscreen-slider section-fullheight"
+      data-os-animation="data-os-animation">
+      <div class="section-fullheight__inner section-fullscreen-slider__inner">
+        <div class="slider slider-halfscreen slider-halfscreen_fullscreen js-slider-halfscreen">
+          <div class="swiper-container slider-halfscreen__images js-slider-halfscreen__images"
+            data-overlap-factor="2">
+
+            <div class="swiper-wrapper">
+              <div class="swiper-slide slider-halfscreen__images-slide">
+                <div class="slider-halfscreen__images-slide-inner">
+                  <div class="slider-halfscreen__bg swiper-lazy" data-background="img/assets/projects/main.png">
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide slider-halfscreen__images-slide">
+                <div class="slider-halfscreen__images-slide-inner">
+                  <div class="slider-halfscreen__bg swiper-lazy" data-background="img/assets/projects/main2.png"></div>
+                </div>
+              </div>
+              <div class="swiper-slide slider-halfscreen__images-slide">
+                <div class="slider-halfscreen__images-slide-inner">
+                  <div class="slider-halfscreen__bg swiper-lazy" data-background="img/assets/projects/main3.png"></div>
+                </div>
+              </div>
+
+            </div>
+
+            <!--overlay_dark-->
+            <div class="slider-halfscreen__overlay overlay overlay_darkPurple"></div>
+           
+            <!-- - slider content -->
+            <div class="swiper-container slider-halfscreen__content js-slider-halfscreen__content">
+
+              <div class="swiper-wrapper">
+                <!--Content Slide-->
+                <div class="swiper-slide slider-halfscreen__content-slide">
+                  <div class="slider-halfscreen__content-inner">
+                    <div class="container">
+                      <div class="row">
+                        <header class="slider-halfscreen__header"><a class="slider-halfscreen__link"
+                            href="project.html" data-pjax-link="halfscreenSlider" data-post-id="1">
+                            <h2 class="split-chars pos">Imaginative</h2>
+                          </a>
+                        </header>
+                      </div>
+
+                      <div class="row">
+                          <h1 class="weAre weAre__small animated fadeIn">WE ARE</h1>
+                          <h1 class="weAre weAre__big animated slideInLeft">WE ARE</h1>
+                      </div>
+
+                      <div class="row">
+                          <h1 class="weAre weAre__ctaOne">More then designers</h1>
+                      </div>
+                      <div class="row">
+                          <h1 class="weAre weAre__ctaTwo">Creative & Courageous</h1>
+                      </div>
+
+
+                      <div class="row margin30">
+                          
+                        <div class="slider-halfscreen__wrapper-link">
+                          <a class="slider-halfscreen__link">
+                            <div class="slider-halfscreen__link-line"></div><a data-pjax-link="halfscreenSlider" data-post-id="1" href="project.html"
+                              class="button">Open My Eyes
+                          </a>
+                        </div>
+
+                      </div>
+                    </div>
+
+
+                  </div>
+                </div>
+                <!--./content slide-->
+
+                <!--Content Slide-->
+                <div class="swiper-slide slider-halfscreen__content-slide">
+                    <div class="slider-halfscreen__content-inner">
+                      <div class="container">
+                        <div class="row">
+                          <header class="slider-halfscreen__header"><a class="slider-halfscreen__link"
+                              href="project.html" data-pjax-link="halfscreenSlider" data-post-id="2">
+                              <h2 class="split-chars pos green">Problem Solvers</h2>
+                            </a>
+                          </header>
+                        </div>
+  
+                        <div class="row">
+                            <h1 class="weAre weAre__small animated fadeIn">WE ARE</h1>
+                            <h1 class="weAre weAre__big animated slideInLeft">WE ARE</h1>
+                        </div>
+  
+                        <div class="row">
+                            <h1 class="weAre weAre__ctaOne">More then developers</h1>
+                        </div>
+                        <div class="row">
+                            <h1 class="weAre weAre__ctaTwo">Software & Web Development</h1>
+                        </div>
+  
+                        <div class="row margin30">
+                          <div class="slider-halfscreen__wrapper-link">
+                            <a class="slider-halfscreen__link">
+                              <div class="slider-halfscreen__link-line"></div><a data-pjax-link="halfscreenSlider" data-post-id="1" href="project.html"
+                                class="button button--blue">Show Me
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--./content slide-->
+
+               <!--Content Slide-->
+               <div class="swiper-slide slider-halfscreen__content-slide">
+                  <div class="slider-halfscreen__content-inner">
+                    <div class="container">
+                      <div class="row">
+                        <header class="slider-halfscreen__header"><a class="slider-halfscreen__link"
+                            href="project.html" data-pjax-link="halfscreenSlider" data-post-id="3">
+                            <h2 class="split-chars pos bluegreen">Innovative</h2>
+                          </a>
+                        </header>
+                      </div>
+
+                      <div class="row">
+                          <h1 class="weAre weAre__small animated fadeIn">WE ARE</h1>
+                          <h1 class="weAre weAre__big animated slideInLeft">WE ARE</h1>
+                      </div>
+
+                      <div class="row">
+                          <h1 class="weAre weAre__ctaOne">More then technology</h1>
+                      </div>
+                      <div class="row">
+                          <h1 class="weAre weAre__ctaTwo">Innovative & Blue Sky Thinkers</h1>
+                      </div>
+
+                      <div class="row margin30">
+                        <div class="slider-halfscreen__wrapper-link">
+                          <a class="slider-halfscreen__link">
+                            <div class="slider-halfscreen__link-line"></div><a data-pjax-link="halfscreenSlider" data-post-id="1" href="project.html"
+                              class="button button--green">Inspire Me
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--./content slide-->
+
+              </div>
+            </div>
+            <!-- - slider content -->
+            <div class="slider-halfscreen__arrows">
+              <div class="slider__arrow slider-halfscreen__arrow_prev js-slider-halfscreen__prev">
+                <div class="slider__arrow-inner"><i class="material-icons">keyboard_arrow_up</i></div>
+              </div>
+              <div class="slider__arrow slider-halfscreen__arrow_next js-slider-halfscreen__next">
+                <div class="slider__arrow-inner"><i class="material-icons">keyboard_arrow_down</i></div>
+              </div>
+            </div>
+            <!-- - nav arrows -->
+          </div>
+        </div>
+    </section>
+    <!-- - section FULLSCREEN SLIDER -->
+  </main>
+  <!-- - PAGE MAIN-->
+  <!-- GOOGLE MAPS -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMDrMzaeoz8AqpXNuaIpCR8OWjZFY6z0A"></script>
+  <!-- - GOOGLE MAPS -->
+  <!-- VENDOR SCRIPTS -->
+  <script src="js/vendor.js"></script>
+  <!-- - VENDOR SCRIPTS -->
+  <!-- COMPONENTS -->
+  <script src="js/main.min.js"></script>
+  <!-- - COMPONENTS -->
+</body>
+
+</html>

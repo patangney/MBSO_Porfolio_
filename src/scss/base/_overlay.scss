@@ -1,0 +1,44 @@
+/* ======================================================================== */
+/* 21. overlay */
+/* ======================================================================== */
+
+
+.overlay_black {
+  background-color: #333333;
+  opacity: .8;
+}
+
+//https://css-tricks.com/almanac/properties/m/mix-blend-mode/
+.overlay_purple {
+  background-image: linear-gradient(129deg, rgba(166, 76, 159, 0), rgba(168, 78, 159, 0.94) 83%, #a14aa1);
+  opacity: .8;
+  mix-blend-mode: soft-light;
+}
+
+.overlay_green {
+  background-image: linear-gradient(129deg, rgba(166, 76, 159, 0), #1e927a 83%, #20937b);
+  opacity: .8;
+  mix-blend-mode: soft-light;
+}
+
+/* ======================================================================== */
+/* MENU - Colors */
+/* ======================================================================== */
+.header__overlay-menu-back {
+  color: $third !important;
+}
+
+.project-backgrounds {
+  background-color: $primary;
+}
+
+/* ===================================
+    Menu Overlay
+====================================== */
+.overlay_darkPurple {
+  // background-color: #1f0f52;
+  background-image: linear-gradient(129deg, rgba(166, 76, 159, 0), #1f0f52 83%, #1f0f52);
+  opacity: 0.8;
+  mix-blend-mode: soft-light;
+
+}

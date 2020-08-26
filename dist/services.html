@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>MBSO - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta content="telephone=no" name="format-detection" />
+  <meta name="HandheldFriendly" content="true" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Oswald:500%7CPoppins:200,300,300i,400,400i,600,600i%7CMaterial+Icons" />
+  <link rel="stylesheet" href="css/vendor.min.css" />
+  <link rel="stylesheet" href="css/main.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <link rel="manifest" href="img/content/manifest.json" />
+
+</head>
+
+<body data-barba="wrapper">
+  <!-- Cursor follower-->
+  <div class="cursor" id="js-cursor">
+    <div class="cursor__follower">
+      <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+        <circle id="inner" cx="50" cy="50" r="40" />
+        <circle id="outter" cx="50" cy="50" r="40" />
+      </svg>
+    </div>
+  </div>
+  <!-- - Cursor follower-->
+  <!-- Project hover backgrounds-->
+  <div class="project-backgrounds">
+    <div class="project-backgrounds__background lazy-bg" data-src="img/assets/projects/slide@3x.png"
+      data-background-for="1"></div>
+    <div class="project-backgrounds__background lazy-bg" data-src="img/assets/projects/slide2@3x.png"
+      data-background-for="2"></div>
+    <div class="project-backgrounds__background lazy-bg" data-src="img/assets/projects/slide3@3x.png"
+      data-background-for="3"></div>
+
+    <div class="project-backgrounds__overlay overlay overlay_dark"></div>
+  </div>
+  <!-- - Project hover backgrounds-->
+  <!-- PAGE PRELOADER -->
+  <div class="preloader">
+    <div class="preloader__curtain bg-dark-2"></div>
+  </div>
+  <!-- - PAGE PRELOADER -->
+  <!-- PAGE HEADER -->
+  <header class="header header_fixed container-fluid header_white">
+    <div class="row justify-content-between align-items-center">
+      <div class="col-auto header__col-left"><a class="logo" href="index.html">
+          <div class="logo__text">MBSO</div>
+        </a>
+      </div>
+      <div class="col-auto header__col-right">
+        <div class="header__burger" id="js-burger">
+          <div class="header__burger-line"></div>
+          <div class="header__burger-line"></div>
+          <div class="header__burger-line"></div>
+        </div>
+      </div>
+    </div>
+    <!--Navigation-->
+    <div class="header__wrapper-overlay-menu">
+      <div class="header__overlay-menu-back material-icons" id="js-submenu-back">arrow_back</div>
+      <div class="header__wrapper-menu">
+        <ul class="menu-overlay js-menu-overlay">
+
+          <li class="menu-item-has-children"><a href="#">
+              <div class="menu-overlay__item-wrapper"><span class="split-chars">Portfolio</span></div>
+            </a>
+            <ul class="sub-menu">
+              <li><a href="project.html" data-post-id="1" data-pjax-link="overlayMenu">
+                  <div class="menu-overlay__item-wrapper"><span class="split-chars">Software</span></div>
+                </a>
+              </li>
+              <li><a href="project.html" data-post-id="2" data-pjax-link="overlayMenu">
+                  <div class="menu-overlay__item-wrapper"><span class="split-chars">Digital Creation</span></div>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+          <li><a href="services.html" data-pjax-link="overlayMenu">
+              <div class="menu-overlay__item-wrapper"><span class="split-chars">Services</span></div>
+            </a>
+          </li>
+          <li><a href="about.html" data-pjax-link="overlayMenu">
+              <div class="menu-overlay__item-wrapper"><span class="split-chars">About</span></div>
+            </a>
+          </li>
+          <li><a href="contacts.html" data-pjax-link="overlayMenu">
+              <div class="menu-overlay__item-wrapper"><span class="split-chars">Contact Us</span></div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- - menu -->
+      <div class="header__wrapper-overlay-widgets color-white bg-secondary">
+        <div class="header__wrapper-property">
+          <div class="figure-property">
+            <div class="figure-property__wrapper-heading">
+              <h6 class="split-text">Call Us</h6>
+            </div>
+            <div class="figure-property__content">
+              <ul class="figure-property__list">
+                <li class="figure-property__item">
+                  <div class="split-text">+353 66 97123456</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="header__wrapper-property">
+          <div class="figure-property">
+            <div class="figure-property__wrapper-heading">
+              <h6 class="split-text">E-mail</h6>
+            </div>
+            <div class="figure-property__content">
+              <ul class="figure-property__list">
+                <li class="figure-property__item">
+                  <div class="split-text"><a href="mailto:enquiry@mbso.com">enquiry@mbso.com</a></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="header__wrapper-property">
+          <div class="figure-property">
+            <div class="figure-property__wrapper-heading">
+              <h6 class="split-text">Address</h6>
+            </div>
+            <div class="figure-property__content">
+              <ul class="figure-property__list">
+                <li class="figure-property__item">
+                  <div class="split-text">Iveragh Rd<br>Killorglin<br>Co Kerry <br>Ireland</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- - information -->
+    </div>
+  </header>
+    <!-- - PAGE HEADER -->
+    <!-- PAGE MAIN-->
+    <main class="page-wrapper bg_fexPurple" id="js-smooth-scroll" data-barba="container" data-barba-namespace="light">
+      <!-- section MASTHEAD -->
+      <section class="section section-masthead section_pt section_pb" data-os-animation="data-os-animation">
+        <div class="container-fluid">
+          <header class="row section-masthead__header color-white">
+            <div class="col">
+              <h1 class="split-chars">Services</h1>
+              <div class="section__headline"></div>
+            </div>
+          </header>
+          <div class="row section-masthead__properties color-white">
+            <div class="col-lg-auto col-sm-6 section-masthead__wrapper-property">
+              <div class="figure-property">
+                <div class="figure-property__wrapper-heading">
+                  <h6 class="split-text">Web Design</h6>
+                </div>
+                <div class="figure-property__content">
+                  <ul class="figure-property__list">
+                    <li class="figure-property__item">
+                      <div class="split-text">UI / UX Design</div>
+                    </li>
+                    <li class="figure-property__item">
+                      <div class="split-text">Art Direction</div>
+                    </li>
+                    <li class="figure-property__item">
+                      <div class="split-text">Front-end</div>
+                    </li>
+                    <li class="figure-property__item">
+                      <div class="split-text">Back-end</div>
+                    </li>
+                    <li class="figure-property__item">
+                      <div class="split-text">Research & Analytics</div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-auto col-sm-6 section-masthead__wrapper-property">
+              <div class="figure-property">
+                <div class="figure-property__wrapper-heading">
+                  <h6 class="split-text">Graphic Design</h6>
+                </div>
+                <div class="figure-property__content">
+                  <ul class="figure-property__list">
+                    <li class="figure-property__item">
+                      <div class="split-text">Illustrations</div>
+                    </li>
+                    <li class="figure-property__item">
+                      <div class="split-text">Banners</div>
+                    </li>
+                    <li class="figure-property__item">
+                      <div class="split-text">Art Direction</div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-auto col-sm-6 section-masthead__wrapper-property">
+              <div class="figure-property">
+                <div class="figure-property__wrapper-heading">
+                  <h6 class="split-text">Brand &amp; Marketing</h6>
+                </div>
+                <div class="figure-property__content">
+                  <ul class="figure-property__list">
+                    <li class="figure-property__item">
+                      <div class="split-text">Brand Activation</div>
+                    </li>
+                    <li class="figure-property__item">
+                      <div class="split-text">Creative Strategy</div>
+                    </li>
+                    <li class="figure-property__item">
+                      <div class="split-text">SM Guidelines</div>
+                    </li>
+                    <li class="figure-property__item">
+                      <div class="split-text">Corporate Identity</div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-auto col-sm-6 section-masthead__wrapper-property">
+              <div class="figure-property">
+                <div class="figure-property__wrapper-heading">
+                  <h6 class="split-text">Video Production</h6>
+                </div>
+                <div class="figure-property__content">
+                  <ul class="figure-property__list">
+                    <li class="figure-property__item">
+                      <div class="split-text">Commercial Filming</div>
+                    </li>
+                    <li class="figure-property__item">
+                      <div class="split-text">Post Production</div>
+                    </li>
+                    <li class="figure-property__item">
+                      <div class="split-text">Motion Design</div>
+                    </li>
+                    <li class="figure-property__item">
+                      <div class="split-text">3D Animations</div>
+                    </li>
+                    <li class="figure-property__item">
+                      <div class="split-text">Experimental Installations</div>
+                    </li>
+                    <li class="figure-property__item">
+                      <div class="split-text">Multimedia Content</div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- - section MASTHEAD -->
+      <!-- section TESTIMONIALS -->
+      <section class="section section-content bg_fexBlue section_pt section_pb" data-os-animation="data-os-animation">
+        <div class="container section-content__container">
+          <div class="row justify-content-between section-content__row">
+            <header class="col-lg-5 section__header section-content__inner_header color-white">
+              <h2 class="split-chars">What clients say</h2>
+              <div class="section__headline"></div>
+            </header>
+            <div class="col-lg-6 section-content__inner section-content__inner_text">
+              <h3 class="split-text">We develop outstanding creative campaigns for our clients to make them, and keep them, the top brands in their respective markets.</h3>
+            </div>
+          </div>
+          <div class="section-content__main-content">
+            <div class="section-content__wrapper-item">
+              <div class="slider-testimonials js-slider-testimonials">
+                <div class="slider slider-header-testimonials swiper-container js-slider-testimonials__header">
+                  <div class="swiper-wrapper color-white">
+                    <div class="swiper-slide slider-header-testimonials__slide"><span>Martin Harrington</span></div>
+                    <div class="swiper-slide slider-header-testimonials__slide"><span>Iva Newton</span></div>
+                    <div class="swiper-slide slider-header-testimonials__slide"><span>Aaron Wilkerson</span></div>
+                    <div class="swiper-slide slider-header-testimonials__slide"><span>Roger Ramsey</span></div>
+                    <div class="swiper-slide slider-header-testimonials__slide"><span>Cassio Esfandiari</span></div>
+                  </div>
+                </div>
+                <!-- - slider header testimonials -->
+                <div class="slider swiper-container js-slider-testimonials__items color-white">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide slider-testimonials__slide">
+                      <div class="slider-testimonials__wrapper-avatar"><img class="swiper-lazy" data-src="img/assets/avatars/avatar-1.jpg" src="#" alt=""/></div>
+                      <div class="slider-testimonials__wrapper-text">
+                        <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, est aspernatur nobis quasi eius repudiandae deserunt, consequuntur totam maiores autem officiis molestiae? Ipsam voluptatibus assumenda dolore necessitatibus accusamus optio repellendus.!</blockquote>
+                      </div>
+                    </div>
+                    <div class="swiper-slide slider-testimonials__slide">
+                      <div class="slider-testimonials__wrapper-avatar"><img class="swiper-lazy" data-src="img/assets/avatars/avatar-5.jpg" src="#" alt=""/></div>
+                      <div class="slider-testimonials__wrapper-text">
+                        <blockquote>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae possimus accusamus autem, perferendis odit aut porro molestiae rem consequatur ullam magnam tenetur ducimus veritatis voluptatibus facere quo aperiam ipsum quod.</blockquote>
+                      </div>
+                    </div>
+                    <div class="swiper-slide slider-testimonials__slide">
+                      <div class="slider-testimonials__wrapper-avatar"><img class="swiper-lazy" data-src="img/assets/avatars/avatar-3.jpg" src="#" alt=""/></div>
+                      <div class="slider-testimonials__wrapper-text">
+                        <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. At omnis rerum fugit eius error vel sed officiis rem reiciendis veniam enim quos accusantium, recusandae amet incidunt aliquam? Accusantium, architecto quas.</blockquote>
+                      </div>
+                    </div>
+                    <div class="swiper-slide slider-testimonials__slide">
+                      <div class="slider-testimonials__wrapper-avatar"><img class="swiper-lazy" data-src="img/assets/avatars/avatar-4.jpg" src="#" alt=""/></div>
+                      <div class="slider-testimonials__wrapper-text">
+                        <blockquote>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur, quibusdam dolore sint praesentium autem iste mollitia reiciendis placeat ullam vel fugit tenetur quia porro! Fugit fugiat asperiores sit hic deserunt?.</blockquote>
+                      </div>
+                    </div>
+             
+                  </div>
+                  <div class="slider-testimonials__footer">
+                    <div class="slider__dots js-slider-testimonials__dots">
+                      <div class="slider__dot slider__dot_active"></div>
+                      <div class="slider__dot"></div>
+                      <div class="slider__dot"></div>
+                      <div class="slider__dot"></div>
+                    </div>
+                  </div>
+                  <!-- - slider testimonials -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- - section TESTIMONIALS -->
+      <!-- section VIDEO -->
+      <section class="section section-video section_pt section_pb" data-art-parallax="data-art-parallax" data-art-parallax-factor="0.15"><a class="container section-video__link color-white mfp-iframe js-video" href="https://www.youtube.com/watch?v=AG1HU1ir16o">
+          <h2>Look at what we do !</h2>
+          <div class="section-video__icon material-icons">play_arrow</div></a>
+        <div class="lazy-bg art-parallax__bg" data-src="img/assets/sectionVideo/bg-video.jpg">
+          <div class="overlay overlay_green"></div>
+        </div>
+      </section>
+      <!-- - section VIDEO -->
+      
+     <!-- - section TEAM -->
+     <footer class="footer container-fluid bg_fexRed">
+      <div class="footer__area-primary">
+        <div class="row">
+          <div class="col-lg-4 footer__col">
+            <section class="widget widget_ruben_logo"><a class="logo" href="index.html">
+                <div class="logo__text">MBSO</div></a>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum similique quia accusantium tempora accusamus omnis mollitia excepturi, dicta, soluta, nesciunt placeat. Ea ipsa eius voluptatem ex voluptate dolore. Beatae, nulla?</p>
+            </section>
+          </div>
+          <div class="col-lg-4 footer__col">
+            <section class="widget widget_ruben_social">
+              <ul class="social">
+                <li class="social__item"><a class="fa fa-facebook-f" href="#"></a></li>
+                <li class="social__item"><a class="fa fa-twitter" href="#"></a></li>
+                <li class="social__item"><a class="fa fa-instagram" href="#"></a></li>
+                <li class="social__item"><a class="fa fa-behance" href="#"></a></li>
+              </ul>
+            </section>
+          </div>
+          <div class="col-lg-4 footer__col">
+            <section class="widget widget_ruben_contacts">
+              <p>+353 66 1234567</p>
+              <p><a href="mailto:hello@example.com">hello@mbso.com</a></p>
+            </section>
+          </div>
+        </div>
+      </div>
+      <div class="footer__area-secondary color-white">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-12 footer__col">
+            <section class="widget widget_ruben_copyright"><small>© 2019 powered by MBSO. <a href="https://lorem.com">MBSODOTCOM</a></small>
+            </section>
+          </div>
+        </div>
+      </div>
+    </footer>
+    </main>
+    <!-- - PAGE MAIN-->
+
+    <!-- GOOGLE MAPS -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGCk-PSeQLELaQ8isJesmpyqW1snPZU2s"></script>
+    <!-- - GOOGLE MAPS -->
+    <!-- VENDOR SCRIPTS -->
+    <script src="js/vendor.js"></script>
+    <!-- - VENDOR SCRIPTS -->
+    <!-- COMPONENTS -->
+    <script src="js/main.min.js"></script>
+    <!-- - COMPONENTS -->
+  </body>
+</html>

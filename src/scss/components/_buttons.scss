@@ -1,0 +1,80 @@
+/* ======================================================================== */
+/* Helpers */
+/* ======================================================================== */
+.mtSpecial {
+  margin-top: 0;
+}
+
+.mtMinus {
+  margin-top: -0;
+}
+.mbSpecial {
+  margin-bottom: 0;
+  @include phone {
+    margin-bottom: 400px;
+  }
+}
+
+
+
+
+.button {
+   
+    width: 201px;
+    height: auto;
+    color: #fff;
+    text-transform: uppercase;
+    background: #ffffff;
+    padding: 20px;
+    -webkit-backdrop-filter: blur(1.9px);
+    backdrop-filter: blur(1.9px);
+    border: solid 2px #ffffff;
+    background-color: rgba(217, 35, 217, 0.47);
+    border-radius: 50px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    
+
+    &--blue {
+      background-color: rgba(47, 45, 158, 0.47);
+
+      &:hover {
+        background-color: rgba(47, 45, 158, 1);
+      }
+    }
+
+    &--green {
+      background-color: rgba(13, 158, 78, 0.47);
+    }    
+}
+
+.slider-halfscreen__wrapper-link {
+  @include tablet {
+    margin-left: -150px;
+  }
+
+  @include phone {
+    
+    margin-left: 10px;
+  }
+}
+
+.slider-halfscreen_fullscreen .slider-halfscreen__wrapper-link {
+  margin-top: 40px;
+  bottom: 0;
+  left: 0;
+  position: relative;
+}
+
+
+
+.button:hover {
+    color: #fff !important;
+    border-radius: 50px;
+    background-color: rgba(217, 35, 217, 1);
+    transition: all 0.3s ease 0s;
+
+    &--blue:hover {
+      background-color:rgba(166, 76, 159, 1)
+    }
+}

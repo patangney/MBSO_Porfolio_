@@ -1,0 +1,9 @@
+.section-composition__content {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 640px;
+    flex: 1 0 33vw;
+    padding: 200px 120px;
+  }

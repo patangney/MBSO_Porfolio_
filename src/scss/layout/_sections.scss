@@ -1,0 +1,35 @@
+.section-composition__content.customSection {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 640px;
+    flex: 1 0 33vw;
+    padding: 200px 120px;
+}
+
+/* ===================================
+    Contact US
+====================================== */
+
+.input-float__input {
+    border-bottom: 1px solid rgba(238, 231, 231, 0.3);
+    color: $white;
+}
+
+.input-float__label {
+    color: $white;
+}
+
+.button_solid.button_fexco {
+    background-color: $secondary;
+    &:hover {
+        background-color: $purple;
+
+    }
+}
+
+
+// .button_solid.button_fexco:hover {
+//     background-color: $purple !important;
+//   }

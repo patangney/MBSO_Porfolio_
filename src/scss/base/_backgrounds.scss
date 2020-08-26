@@ -1,0 +1,75 @@
+/* ======================================================================== */
+/* 2. backgrounds and bg colors*/
+/* ======================================================================== */
+
+$fexco_purple: #5A2579;
+$fexco_blue: #7CA5AA;
+$fexco_red: #CD1917;
+$fexco_grey: #C3C4C6;
+$fexco_blue2: #B9DAD0;
+
+.bg_fexPurple {
+    background: linear-gradient(135deg, rgb(90,37,121) 0%,rgb(95,56,119) 63%,rgb(95,56,119) 100%);
+}
+
+
+.bg_fexBlue2 {
+    background-color: $fexco_blue2;
+}
+.bg_fexGrey {
+    background-color: $fexco_grey;
+}
+.bg_fexBlue {
+    background-color: $fexco_blue;
+}
+
+.bg_fexRed {
+    background-color: $fexco_red;
+}
+
+.bg-primary {
+    background-color: $primary;
+}
+
+.bg-secondary {
+    background-color: $secondary;
+}
+
+.bg_fexBlue .slider-header-testimonials:before {
+    background: linear-gradient(-90deg, rgba(242, 242, 242, 0) 0%, $fexco_blue 100%);
+}
+
+.bg_fexBlue .slider-header-testimonials:after {
+    background: linear-gradient(90deg, rgba(242, 242, 242, 0) 0%, $fexco_blue 100%);
+}
+
+
+.bg-light .slider-header-testimonials:before {
+    background: linear-gradient(-90deg, rgba(242, 242, 242, 0) 0%, $bg-light 100%);
+}
+
+
+.bg_fexBlue .slider-header-testimonials:after {
+    background: linear-gradient(90deg, rgba(242, 242, 242, 0) 0%, $fexco_blue 100%);
+}
+.bg-light .slider-header-testimonials:after {
+    background: linear-gradient(90deg, rgba(242, 242, 242, 0) 0%, $bg-light 100%);
+}
+
+.bg-purple {
+    background-color: #1F0F52;
+    background-image: linear-gradient(259deg, #1F0F52, rgb(42, 20, 116));
+}
+.bg-pink {    
+    background-image: linear-gradient(259deg, #bd5998, #5f27b8);
+}
+
+.bg-purple-light {
+    background-color: #28136d;
+}
+
+.bg-purple-2 {
+    background-color: #200f57;
+}
+
+

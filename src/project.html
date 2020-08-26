@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>MBSO - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta content="telephone=no" name="format-detection" />
+  <meta name="HandheldFriendly" content="true" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Oswald:500%7CPoppins:200,300,300i,400,400i,600,600i%7CMaterial+Icons" />
+  <link rel="stylesheet" href="css/vendor.min.css" />
+  <link rel="stylesheet" href="css/main.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <link rel="manifest" href="img/content/manifest.json" />
+
+</head>
+
+<body data-barba="wrapper">
+  <!-- Cursor follower-->
+  <div class="cursor" id="js-cursor">
+    <div class="cursor__follower"><svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+        <circle id="inner" cx="50" cy="50" r="40" />
+        <circle id="outter" cx="50" cy="50" r="40" />
+      </svg>
+    </div>
+  </div>
+  <!-- - Cursor follower-->
+  <!-- Project hover backgrounds-->
+  <div class="project-backgrounds">
+    <div class="project-backgrounds__background lazy-bg" data-src="img/assets/projects/main.png"
+      data-background-for="1"></div>
+    <div class="project-backgrounds__background lazy-bg" data-src="img/assets/projects/main2.png"
+      data-background-for="2"></div>
+    <div class="project-backgrounds__background lazy-bg" data-src="img/assets/projects/main3.png"
+      data-background-for="3"></div>
+
+    <div class="project-backgrounds__overlay overlay overlay_green"></div>
+  </div>
+  <!-- - Project hover backgrounds-->
+  <!-- PAGE PRELOADER -->
+  <div class="preloader">
+    <div class="preloader__curtain bg-dark-2"></div>
+  </div>
+  <!-- - PAGE PRELOADER -->
+  <!-- PAGE HEADER -->
+  <header class="header header_fixed container-fluid header_white">
+    <div class="row justify-content-between align-items-center">
+      <div class="col-auto header__col-left"><a class="logo" href="index.html">
+          <div class="logo__text">MBSO</div>
+        </a>
+      </div>
+      <div class="col-auto header__col-right">
+        <div class="header__burger" id="js-burger">
+          <div class="header__burger-line"></div>
+          <div class="header__burger-line"></div>
+          <div class="header__burger-line"></div>
+        </div>
+      </div>
+    </div>
+    <!--Navigation-->
+    <div class="header__wrapper-overlay-menu">
+      <div class="header__overlay-menu-back material-icons" id="js-submenu-back">arrow_back</div>
+      <div class="header__wrapper-menu">
+        <ul class="menu-overlay js-menu-overlay">
+
+          <li class="menu-item-has-children"><a href="#">
+              <div class="menu-overlay__item-wrapper"><span class="split-chars">Portfolio</span></div>
+            </a>
+            <ul class="sub-menu">
+              <li><a href="project.html" data-post-id="1" data-pjax-link="overlayMenu">
+                  <div class="menu-overlay__item-wrapper"><span class="split-chars">Software</span></div>
+                </a>
+              </li>
+              <li><a href="project.html" data-post-id="2" data-pjax-link="overlayMenu">
+                  <div class="menu-overlay__item-wrapper"><span class="split-chars">Digital Creation</span></div>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+          <li><a href="services.html" data-pjax-link="overlayMenu">
+              <div class="menu-overlay__item-wrapper"><span class="split-chars">Services</span></div>
+            </a>
+          </li>
+          <li><a href="about.html" data-pjax-link="overlayMenu">
+              <div class="menu-overlay__item-wrapper"><span class="split-chars">About</span></div>
+            </a>
+          </li>
+          <li><a href="contacts.html" data-pjax-link="overlayMenu">
+              <div class="menu-overlay__item-wrapper"><span class="split-chars">Contact Us</span></div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- - menu -->
+      <div class="header__wrapper-overlay-widgets color-white bg-secondary">
+        <div class="header__wrapper-property">
+          <div class="figure-property">
+            <div class="figure-property__wrapper-heading">
+              <h6 class="split-text">Call Us</h6>
+            </div>
+            <div class="figure-property__content">
+              <ul class="figure-property__list">
+                <li class="figure-property__item">
+                  <div class="split-text">+353 66 97123456</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="header__wrapper-property">
+          <div class="figure-property">
+            <div class="figure-property__wrapper-heading">
+              <h6 class="split-text">E-mail</h6>
+            </div>
+            <div class="figure-property__content">
+              <ul class="figure-property__list">
+                <li class="figure-property__item">
+                  <div class="split-text"><a href="mailto:enquiry@mbso.com">enquiry@mbso.com</a></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="header__wrapper-property">
+          <div class="figure-property">
+            <div class="figure-property__wrapper-heading">
+              <h6 class="split-text">Address</h6>
+            </div>
+            <div class="figure-property__content">
+              <ul class="figure-property__list">
+                <li class="figure-property__item">
+                  <div class="split-text">Iveragh Rd<br>Killorglin<br>Co Kerry <br>Ireland</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- - information -->
+    </div>
+  </header>
+  <!-- - PAGE HEADER -->
+  <!-- PAGE MAIN-->
+  <main class="page-wrapper bg-purple" id="js-smooth-scroll" data-barba="container" data-barba-namespace="light">
+    <!-- section MASTHEAD -->
+    <section class="section section-masthead section_pt" data-os-animation="data-os-animation">
+      <div class="container-fluid">
+        <header class="row section-masthead__header ">
+          <div class="col">
+            <h1 class="split-chars white">MBSO Software & Digital Creations</h1>
+            <div class="section__headline white"></div>
+          </div>
+        </header>
+        <div class="row section-masthead__properties">
+          <div class="col-lg-auto col-sm-6 section-masthead__wrapper-property">
+            <div class="figure-property">
+              <div class="figure-property__wrapper-heading">
+                <h6 class="split-text">Product</h6>
+              </div>
+              <div class="figure-property__content">
+                <ul class="figure-property__list">
+                  <li class="figure-property__item">
+                    <div class="split-text white">Custom Solutions</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-auto col-sm-6 section-masthead__wrapper-property">
+            <div class="figure-property">
+              <div class="figure-property__wrapper-heading">
+                <h6 class="split-text">Category</h6>
+              </div>
+              <div class="figure-property__content">
+                <ul class="figure-property__list">
+                  <li class="figure-property__item">
+                    <div class="split-text white">Creative / Portfolio</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-auto col-sm-6 section-masthead__wrapper-property">
+            <div class="figure-property">
+              <div class="figure-property__wrapper-heading">
+                <h6 class="split-text">Started</h6>
+              </div>
+              <div class="figure-property__content">
+                <ul class="figure-property__list">
+                  <li class="figure-property__item">
+                    <div class="split-text white">04 Oct 2018</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-auto col-sm-6 section-masthead__wrapper-property">
+            <div class="figure-property">
+              <div class="figure-property__wrapper-heading">
+                <h6 class="split-text">Launch</h6>
+              </div>
+              <div class="figure-property__content">
+                <ul class="figure-property__list">
+                  <li class="figure-property__item">
+                    <div class="split-text white">07 Feb 2019</div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section section_h-600 section-masthead__background section-masthead__background_bottom section_h-600"
+        data-art-parallax="data-art-parallax" data-art-parallax-factor="0.25">
+        <div class="art-parallax__bg lazy-bg" data-src="img/assets/projects/main.png"></div>
+        <div class="row">
+          <h1 class="weAre weAre__parallax--1 animated fadeIn">We Are Software</h1>
+          <h1 class="weAre weAre__parallax animated slideInLeft">We Are</h1>
+
+        </div>
+      </div>
+      <div class="row">
+        <h2 class="weAre weAre__ctaThree text-center">Imaginative</h2>
+      </div>
+    </section>
+
+    <section class="section section-content section_pt section_pb" data-os-animation="data-os-animation">
+      <div class="container section-content__container">
+        <div class="row justify-content-between section-content__row">
+          <header class="col-lg-5 section__header section-content__inner_header">
+            <h2 class="split-chars">Unleash Your Creativity</h2>
+            <div class="section__headline white"></div>
+          </header>
+          <div class="col-lg-6 section-content__inner section-content__inner_text">
+            <h3 class="split-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates obcaecati eveniet
+              quas facere hic eos odio quia quos ducimus placeat labore quae aliquid, consequatur distinctio nihil
+              repellendus alias ipsum sequi?</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Content Item 1 - CCA Awards-->
+    <section class="section section-composition flex-lg-row-reverse bg-purple">
+      <div class="section-composition__image bg-purple-light color-white">
+          <div class="lazy projectImages"><img data-src="img/assets/projects/ccaAwards.png" width="658" height="815" src="#" alt="" />
+          </div>
+      </div>
+      <div class="section-composition__content customSection bg-purple-2 color-white"
+        data-os-animation="data-os-animation">
+        <div class="figure-property">
+          <div
+            class="figure-property__wrapper-heading figure-property__wrapper-heading_border figure-property__wrapper-heading_bold">
+            <div class="figure-property__headline"></div>
+            <h6 class="split-text">CCA Awards</h6>
+          </div>
+          <div class="figure-property__content">
+            <ul class="figure-property__list">
+              <li class="figure-property__item">
+                <div class="split-text">Team of the Year</div>
+              </li>
+              <li class="figure-property__item">
+                <div class="split-text">lorem Lorem ipsum dolor</div>
+              </li>
+              <li class="figure-property__item">
+                <div class="split-text">lorem Lorem ipsum dolor</div>
+              </li>
+              <li class="figure-property__item">
+                <div class="split-text">lorem Lorem ipsum dolor</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--./CCA AWARDS-->
+
+    <!--Content Item 2 - Wall Graphic-->
+    <section class="section section-composition bg-purple color-white">
+      <div class="section-composition__image bg-purple-2 ">
+        <div class="lazy projectImages"><img data-src="img/assets/projects/wallGraphic.png" width="658" height="815" src="#" alt="" />
+        </div>
+      </div>
+      <div class="section-composition__content bg-purple customSection" data-os-animation="data-os-animation">
+        <div class="figure-property">
+          <div
+            class="figure-property__wrapper-heading figure-property__wrapper-heading_border figure-property__wrapper-heading_bold">
+            <div class="figure-property__headline"></div>
+            <h6 class="split-text">Wall Graphic</h6>
+          </div>
+          <div class="figure-property__content">
+            <ul class="figure-property__list">
+              <li class="figure-property__item">
+                <div class="split-text">MBSO Room Fexco</div>
+              </li>
+              <li class="figure-property__item">
+                <div class="split-text">lorem lorem lorem</div>
+              </li>
+              <li class="figure-property__item">
+                <div class="split-text">lorem lorem lorem</div>
+              </li>
+              <li class="figure-property__item">
+                <div class="split-text">lorem lorem lorem</div>
+              </li>
+              <li class="figure-property__item">
+                <div class="split-text">lorem lorem lorem</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Content Item 3 - Fexco Progression-->
+    <section class="section section-composition flex-lg-row-reverse bg-purple">
+      <div class="section-composition__image bg-purple-light color-white">
+        <div class="lazy projectImages"><img data-src="img/assets/projects/fexcoProgression.png" width="658" height="815" src="#"
+            alt="" /></div>
+      </div>
+      <div class="section-composition__content customSection bg-purple-2 color-white"
+        data-os-animation="data-os-animation">
+        <div class="figure-property">
+          <div
+            class="figure-property__wrapper-heading figure-property__wrapper-heading_border figure-property__wrapper-heading_bold">
+            <div class="figure-property__headline"></div>
+            <h6 class="split-text">Fexco Progression</h6>
+          </div>
+          <div class="figure-property__content">
+            <ul class="figure-property__list">
+              <li class="figure-property__item">
+                <div class="split-text">lorem lore ipsum</div>
+              </li>
+              <li class="figure-property__item">
+                <div class="split-text">lorem Lorem ipsum dolor</div>
+              </li>
+              <li class="figure-property__item">
+                <div class="split-text">lorem Lorem ipsum dolor</div>
+              </li>
+              <li class="figure-property__item">
+                <div class="split-text">lorem Lorem ipsum dolor</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--./Fexco Progression-->
+
+    <!--Content Item 4 - IsoMetric-->
+    <section class="section section-composition bg-purple color-white">
+      <div class="section-composition__image bg-purple-2 ">
+        <div class="lazy projectImages"><img data-src="img/assets/projects/isoMetric.png" width="658" height="815" src="#" alt="" />
+        </div>
+      </div>
+      <div class="section-composition__content bg-purple customSection" data-os-animation="data-os-animation">
+        <div class="figure-property">
+          <div
+            class="figure-property__wrapper-heading figure-property__wrapper-heading_border figure-property__wrapper-heading_bold">
+            <div class="figure-property__headline"></div>
+            <h6 class="split-text">Isometric Icons</h6>
+          </div>
+          <div class="figure-property__content">
+            <ul class="figure-property__list">
+              <li class="figure-property__item">
+                <div class="split-text">lorem lorem lorem</div>
+              </li>
+              <li class="figure-property__item">
+                <div class="split-text">lorem lorem lorem</div>
+              </li>
+              <li class="figure-property__item">
+                <div class="split-text">lorem lorem lorem</div>
+              </li>
+              <li class="figure-property__item">
+                <div class="split-text">lorem lorem lorem</div>
+              </li>
+              <li class="figure-property__item">
+                <div class="split-text">lorem lorem lorem</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="section section-content section_pt section_pb" data-os-animation="data-os-animation">
+      <div class="container section-content__container">
+        <div class="row justify-content-between section-content__row">
+          <header class="col-lg-5 section__header section-content__inner_header">
+            <h2 class="split-chars">lorem header lorem header</h2>
+            <div class="section__headline white"></div>
+          </header>
+          <div class="col-lg-6 section-content__inner section-content__inner_text">
+            <h3 class="split-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi porro quia, illo
+              accusamus ipsam maxime natus voluptate, minima vitae, in nobis ea exercitationem delectus quod quam.
+              Provident officia omnis qui.</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- - section CONTENT #2 -->
+    <!-- aside COUNTERS -->
+    <aside class="aside aside-counters section section_pt-small section_pb-small bg-pink color-white">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-4 aside-counters__wrapper-item">
+            <div class="counter js-counter" data-counter-start="0" data-counter-target="103" data-counter-duration="4">
+              <div class="counter__number js-counter__number">6</div>
+              <div class="counter__label">Solutions</div>
+            </div>
+          </div>
+          <div class="col-sm-4 aside-counters__wrapper-item">
+            <div class="counter js-counter" data-counter-start="0" data-counter-target="252" data-counter-duration="4">
+              <div class="counter__number js-counter__number">23</div>
+              <div class="counter__label">Designs</div>
+            </div>
+          </div>
+          <div class="col-sm-4 aside-counters__wrapper-item">
+            <div class="counter js-counter" data-counter-start="0" data-counter-target="120" data-counter-duration="4">
+              <div class="counter__number js-counter__number">8</div>
+              <div class="counter__label">UX Design</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <!-- - aside COUNTERS -->
+
+    
+    <!-- section SLIDER #2 -->
+    <section class="section bg-purple color-white section_pt section_pb text-center">
+      <div class="slider swiper-container js-slider-images" data-slides-per-view="4" data-autoplay-enabled="true"
+        data-centered-slides="true">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slider__slide">
+            <div class="slider__slide-inner">
+              
+              <div class="slider__caption">lorem header</div><img class="swiper-lazy"
+                data-src="https://picsum.photos/353/664?random=1" src="#" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide slider__slide">
+            <div class="slider__slide-inner">
+              <div class="slider__caption">lorem header</div><img class="swiper-lazy"
+                data-src="https://picsum.photos/353/664?random=2" src="#" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide slider__slide">
+            <div class="slider__slide-inner">
+              <div class="slider__caption">lorem header</div><img class="swiper-lazy"
+                data-src="https://picsum.photos/353/664?random=3" src="#" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide slider__slide">
+            <div class="slider__slide-inner">
+              <div class="slider__caption">lorem header</div><img class="swiper-lazy"
+                data-src="https://picsum.photos/353/664?random=4" src="#" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide slider__slide">
+            <div class="slider__slide-inner">
+              <div class="slider__caption">lorem header</div><img class="swiper-lazy"
+                data-src="https://picsum.photos/353/664?random=5" src="#" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="slider__progress color-secondary">
+          <div class="swiper-container slider__counter slider__counter_current js-slider-images-counter-current">
+            <div class="swiper-wrapper"></div>
+          </div>
+          <div class="slider__progressbar slider__progressbar--1 js-slider-images-progress">
+            <div class="slider__progressbar-fill"></div>
+          </div>
+          <div class="slider__counter slider__counter_total js-slider-images-counter-total">0</div>
+        </div>
+      </div>
+    </section>
+    <!-- - section SLIDER #2 -->
+    <!-- section CTA -->
+    <section class="section section section-cta section_pt section_pb text-center">
+      <div class="container">
+        <header class="row justify-content-center section__header">
+          <div class="col-lg-8">
+            <div class="section-cta__headline"></div>
+            <h2>Get In Touch</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore voluptas at illo accusamus, omnis
+              consequatur officia vero corrupti aspernatur laudantium repellat, ullam ut aut optio ex dicta. Facere,
+              itaque aperiam..</p>
+          </div>
+        </header>
+        <div class="row section-cta__wrapper-button">
+          <div class="col"><a class="button button button_solid button_dark" href="#">Linky</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- - section CTA -->
+    <!-- section NAV PROJECTS -->
+    <section class="section section-nav-projects container-fluid no-gutters">
+      <div class="row no-gutters h-100"><a class="col-md-6 section-nav-projects__inner section-nav-projects__inner_prev"
+          href="project.html" data-pjax-link="navProjects" data-post-id="1">
+          <div class="section-nav-projects__label section-nav-projects__label_prev">Prev</div>
+          <div class="section-nav-projects__arrow"><i class="material-icons">keyboard_arrow_left</i></div>
+          <h3>MBSO Software</h3>
+        </a><a class="col-md-6 section-nav-projects__inner section-nav-projects__inner_next" href="project.html"
+          data-pjax-link="navProjects" data-post-id="2">
+          <div class="section-nav-projects__label section-nav-projects__label_next">Next</div>
+          <h3>MBSO Digital Creations</h3>
+          <div class="section-nav-projects__arrow"><i class="material-icons">keyboard_arrow_right</i></div>
+        </a></div>
+      <div class="section-nav-projects__backgrounds">
+        <div class="section-nav-projects__background section-nav-projects__background_prev lazy-bg"
+          data-src="img/assets/projects/main.png" data-background-for="1"></div>
+        <div class="section-nav-projects__background section-nav-projects__background_next lazy-bg"
+          data-src="img/assets/projects/main2.png" data-background-for="2"></div>
+        <div class="overlay overlay_dark section-nav-projects__overlay"></div>
+      </div>
+    </section>
+    <!-- - section NAV PROJECTS -->
+  </main>
+  <!-- - PAGE MAIN-->
+  <!-- GOOGLE MAPS -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGCk-PSeQLELaQ8isJesmpyqW1snPZU2s"></script>
+  <!-- - GOOGLE MAPS -->
+  <!-- VENDOR SCRIPTS -->
+  <script src="js/vendor.js"></script>
+  <!-- - VENDOR SCRIPTS -->
+  <!-- COMPONENTS -->
+  <script src="js/main.min.js"></script>
+  <!-- - COMPONENTS -->
+</body>
+
+</html>
